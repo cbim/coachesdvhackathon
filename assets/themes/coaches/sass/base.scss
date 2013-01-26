@@ -8,18 +8,19 @@
 */
 
 
-/* Table of Content
-==================================================
-	#Reset & Basics
-	#Basic Styles
-	#Site Styles
-	#Typography
-	#Links
-	#Lists
-	#Images
-	#Buttons
-	#Forms
-	#Misc */
+/* SASS/Compass Mixins
+================================================== */
+@mixin vendor-prefix($name, $argument) {
+  #{$name}: $argument;
+  -webkit-#{$name}: $argument;
+  -ms-#{$name}: $argument;
+  -moz-#{$name}: $argument;
+  -o-#{$name}: $argument;
+}
+
+/* Variables
+================================================== */
+$orange: #ff7800;
 
 
 /* #Reset & Basics (Inspired by E. Meyers)
@@ -51,7 +52,9 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #fff;
+		background:#FFF;  
+        background: url(../img/bg_bw.jpg) no-repeat center center fixed; 
+              @include vendor-prefix(background-size, cover);
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -65,16 +68,12 @@
 		color: #181818;
 		font-family: "Open Sans", "Georgia", serif;
 		font-weight: normal; }
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 
 	h1 { font-family: 'Alfa Slab One', cursive;
 		text-transform: uppercase;
+		color:$orange;
 		font-size: 46px; line-height: 50px; margin-bottom: 14px;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
-	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
-	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
-	h5 { font-size: 17px; line-height: 24px; }
-	h6 { font-size: 14px; line-height: 21px; }
+
 	.subheader { color: #777; }
 
 	p { margin: 0 0 20px 0; 
@@ -268,5 +267,32 @@
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
+
+
+/* #Index Page Elements
+================================================== */
+
+#orangeRect{
+	height: 400px;
+	width: 400px;
+	background: url(../img/bg_or.jpg) no-repeat center center fixed; 
+              @include vendor-prefix(background-size, cover);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
