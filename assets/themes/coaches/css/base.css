@@ -363,3 +363,61 @@ legend span {
   -ms-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; }
+
+/* #Card Pages
+================================================== */
+.clear {
+  clear: both; }
+
+#header {
+  width: 100%;
+  background-color: #045568;
+  opacity: .8;
+  height: auto;
+  padding-bottom: 17px;
+  padding-top: 17px; }
+  #header h2 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    float: left;
+    margin-right: 10px;
+    line-height: 45px;
+    font-weight: 800; }
+  #header h3 {
+    color: #fff;
+    font-size: 40px;
+    float: left;
+    font-weight: 200;
+    line-height: 45px; }
+
+.cardContainer {
+  width: 98%;
+  margin: 0px auto;
+  max-width: 900px;
+  min-width: 300px;
+  padding: 2%; }
+  .cardContainer p {
+    font-size: 18px;
+    line-height: 24px; }
+
+#bodybg {
+  width: 100%;
+  height: auto;
+  opacity: .95;
+  background-color: #c6c5c2;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.cardContent {
+  width: 45%;
+  margin-right: 5%;
+  float: left;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #045568; }
+  .cardContent li {
+    list-style: circle;
+    margin-left: 50px; }
+  @media (max-width: 600px) {
+    .cardContent {
+      width: 98%; } }

@@ -21,6 +21,9 @@
 /* Variables
 ================================================== */
 $orange: #ff7800;
+$black:#000;
+$bggray:#C6C5C2;
+$blue:#045568;
 
 
 /* #Reset & Basics (Inspired by E. Meyers)
@@ -285,10 +288,79 @@ $orange: #ff7800;
 
 
 
+/* #Card Pages
+================================================== */
+
+.clear{
+	clear:both;
+}
+
+#header{
+	width:100%;
+	background-color:$blue;
+	opacity: .8;
+	height:auto;
+	padding-bottom:17px;
+	padding-top:17px;
 
 
+	h2{
+		color:#fff;
+		font-size: 40px;
+		text-transform:uppercase;
+		float:left;
+		margin-right:10px;
+		line-height:45px;
+		font-weight: 800;
+
+	}
+	h3{
+		color:#fff;
+		font-size: 40px;
+		float:left;
+		font-weight:200;
+		line-height:45px;
+	}
+}
+.cardContainer{
+	width:98%;
+	margin:0px auto;
+	max-width:900px;
+	min-width:300px;
+	padding:2%;
 
 
+	p{
+		font-size:18px;
+		line-height:24px;
+	}
+
+}
+
+#bodybg{
+	width:100%;
+	height:auto;
+	opacity:.95;
+	background-color:$bggray;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.cardContent{
+	width:45%;
+	margin-right:5%;
+	float:left;
+	margin-bottom:10px;
+	border-bottom:1px solid $blue;
+	li{
+		list-style:	circle;
+		margin-left:50px;
+	}
+	@media(max-width:600px){
+		width:98%;
+	}
+
+}
 
 
 
