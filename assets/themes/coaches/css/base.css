@@ -45,7 +45,7 @@ table {
 ================================================== */
 body {
   background: #FFF;
-  background: url(../img/bg_bw.jpg) no-repeat center center fixed;
+  background: url(../img/bg_orange.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -ms-background-size: cover;
@@ -57,6 +57,10 @@ body {
   /* Fix for webkit rendering */
   -webkit-text-size-adjust: 100%; }
 
+::selection {
+  background-color: #ff7800;
+  color: #FFF; }
+
 /* #Typography
 ================================================== */
 h2, h3, h4, h5, h6, p {
@@ -67,9 +71,11 @@ h2, h3, h4, h5, h6, p {
 h1 {
   font-family: "Alfa Slab One", cursive;
   text-transform: uppercase;
-  color: #ff7800;
+  color: white;
+  text-align: right;
+  margin-top: 10%;
   font-size: 46px;
-  line-height: 50px;
+  line-height: 1.5em;
   margin-bottom: 14px; }
 
 .subheader {
@@ -354,15 +360,8 @@ legend span {
 
 /* #Index Page Elements
 ================================================== */
-#orangeRect {
-  height: 400px;
-  width: 400px;
-  background: url(../img/bg_or.jpg) no-repeat center center fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -ms-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; }
+#intropage h1 {
+  max-width: pagewidth/2; }
 
 /* #Card Pages
 ================================================== */

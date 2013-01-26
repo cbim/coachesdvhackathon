@@ -2,15 +2,24 @@
 layout: default
 title: Hello World!
 tagline: Supporting tagline
+theme :
+  name : coaches
 ---
 {% include JB/setup %}
 
-<div id="orangeRect"></div>
-<h1> You are a rolemodel </h1>
-<h2> This is an h2 </h2>
-<p>
-  Hello how are you. I am on the dv hackathon git.
-  Yay. This is fun.
-</p>
 
 
+
+
+
+<h1 id="fittext1" id="intropage"> You are a
+  role model </h1>
+
+
+<!-- Links only for this page -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="assets/themes/coaches/js/jquery.fittext.js"></script>
+  <script type="text/javascript">
+    $("#fittext1").fitText(.8);
+  </script>
+<!-- end links-->

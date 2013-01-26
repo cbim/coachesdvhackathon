@@ -56,13 +56,18 @@ $blue:#045568;
 ================================================== */
 	body {
 		background:#FFF;  
-        background: url(../img/bg_bw.jpg) no-repeat center center fixed; 
+        background: url(../img/bg_orange.jpg) no-repeat center center fixed; 
               @include vendor-prefix(background-size, cover);
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
+ 	 ::selection {
+ 		background-color: $orange;
+ 		color: #FFF;
+ 	}
+
 
 
 /* #Typography
@@ -74,8 +79,10 @@ $blue:#045568;
 
 	h1 { font-family: 'Alfa Slab One', cursive;
 		text-transform: uppercase;
-		color:$orange;
-		font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+		color: white;
+		text-align: right;
+		margin-top: 10%;
+		font-size: 46px; line-height: 1.5em; margin-bottom: 14px;}
 
 	.subheader { color: #777; }
 
@@ -275,13 +282,9 @@ $blue:#045568;
 /* #Index Page Elements
 ================================================== */
 
-#orangeRect{
-	height: 400px;
-	width: 400px;
-	background: url(../img/bg_or.jpg) no-repeat center center fixed; 
-              @include vendor-prefix(background-size, cover);
 
-
+#intropage h1{
+	max-width: pagewidth/2;
 
 }
 
