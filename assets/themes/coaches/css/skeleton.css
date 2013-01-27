@@ -17,10 +17,10 @@
 ================================================== */
 .container {
   position: relative;
-  width: 100%;
+  width: 95%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 20px; }
+  padding-left: 20px; }
 
 .container .column,
 .container .columns {

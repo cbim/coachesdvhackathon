@@ -101,9 +101,10 @@ h5 {
 
 h4 {
   color: #045568;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 500;
-  line-height: 45px; }
+  line-height: 45px;
+  margin-top: 10px; }
 
 .subheader {
   color: #777; }
@@ -123,8 +124,8 @@ small {
 
 /*	Blockquotes  */
 blockquote, blockquote p {
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 25px;
+  line-height: 30px;
   color: #777;
   font-style: italic; }
 
@@ -387,10 +388,6 @@ legend span {
 
 /* #Index Page Elements
 ================================================== */
-@media screen and (max-width: 1050px) {
-  .container {
-    margin-left: 50px; } }
-
 #intropage h1 {
   max-width: pagewidth/2; }
 
@@ -472,6 +469,9 @@ legend span {
     margin-right: 10px;
     line-height: 45px;
     font-weight: 800; }
+    @media (max-width: 1050px) {
+      #header h2 {
+        margin-left: 50px; } }
   #header h3 {
     color: #fff;
     font-size: 40px;
@@ -486,8 +486,8 @@ legend span {
   position: relative;
   clear: both; }
   .cardContainer p {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 25px;
+    line-height: 30px;
     color: black; }
 
 blockquote {
@@ -507,7 +507,7 @@ blockquote {
   .cardContent li {
     list-style: circle;
     margin-left: 50px; }
-  @media (max-width: 600px) {
+  @media screen and (max-width: 600px) {
     .cardContent {
       width: 98%; } }
 
@@ -556,4 +556,12 @@ blockquote {
     #menu li a {
       text-decoration: none;
       font-family: 'Open Sans',sans-serif;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-weight: 800;
+      color: #fff; }
+    #menu li h3 {
+      text-decoration: none;
+      font-family: 'Open Sans',sans-serif;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 40px; }

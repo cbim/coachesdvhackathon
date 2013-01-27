@@ -26,8 +26,6 @@
 	transition: $transition-property $transition-time $method;
 }
 
-
-
 /* Variables
 ================================================== */
 $orange: #ff7800;
@@ -44,7 +42,8 @@ $blue:#045568;
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline; }
+		vertical-align: baseline; 
+}
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
@@ -126,9 +125,10 @@ text-shadow: 1px 8px 8px #383535;
 
 h4{
 		color:$blue;
-		font-size: 25px;
+		font-size: 40px;
 		font-weight:500;
 		line-height:45px;
+		margin-top:10px;
 	}
 
 	.subheader { color: #777; }
@@ -142,7 +142,7 @@ h4{
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote, blockquote p { font-size: 25px; line-height: 30px; color: #777; font-style: italic; }
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
 	blockquote cite { display: block; font-size: 12px; color: #555; }
 	blockquote cite:before { content: "\2014 \0020"; }
@@ -329,11 +329,7 @@ h4{
 /* #Index Page Elements
 ================================================== */
 
-.container{
-	@media screen and (max-width:1050px){
-		margin-left:50px;
-	}
-}
+
 
 #intropage h1{
 	max-width: pagewidth/2;
@@ -438,6 +434,9 @@ h4{
 		margin-right:10px;
 		line-height:45px;
 		font-weight: 800;
+		@media(max-width:1050px){
+			margin-left:50px;
+		}
 
 	}
 	h3{
@@ -457,8 +456,8 @@ h4{
 
 
 	p{
-		font-size:18px;
-		line-height:24px;
+		font-size:25px;
+		line-height:30px;
 		color:$black;
 	}
 
@@ -484,7 +483,7 @@ blockquote{
 		list-style:	circle;
 		margin-left:50px;
 	}
-	@media(max-width:600px){
+	@media screen and (max-width:600px){
 		width:98%;
 	}
 
@@ -546,8 +545,17 @@ blockquote{
 			text-decoration: none;
 			font-family: 'Open Sans',sans-serif;
 			text-transform: uppercase;
+			font-weight: 800;
+			color:#fff;
 		}
 		font-size:20px;
+		h3{
+						text-decoration: none;
+			font-family: 'Open Sans',sans-serif;
+			text-transform: uppercase;
+			font-weight: 800;
+			font-size:40px;
+		}
 
 	}
 
