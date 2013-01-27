@@ -397,11 +397,8 @@ legend span {
     line-height: 45px; }
 
 .cardContainer {
-  width: 98%;
-  margin: 0px auto;
-  max-width: 900px;
+  width: 100%;
   min-width: 300px;
-  padding: 2%;
   height: 800px;
   position: relative; }
   .cardContainer p {
@@ -413,12 +410,10 @@ legend span {
   height: auto;
   opacity: .95;
   background-color: #c6c5c2;
-  padding-top: 20px;
   padding-bottom: 20px; }
 
 .cardContent {
   width: 45%;
-  margin-right: 5%;
   float: left;
   margin-bottom: 20px; }
   .cardContent li {

@@ -333,11 +333,8 @@ h4{
 	}
 }
 .cardContainer{
-	width:98%;
-	margin:0px auto;
-	max-width:900px;
+	width:100%;
 	min-width:300px;
-	padding:2%;
 	height:800px;
 	position: relative;
 
@@ -354,13 +351,11 @@ h4{
 	height:auto;
 	opacity:.95;
 	background-color:$bggray;
-	padding-top:20px;
 	padding-bottom:20px;
 }
 
 .cardContent{
 	width:45%;
-	margin-right:5%;
 	float:left;
 	margin-bottom:20px;
 	li{
