@@ -585,6 +585,7 @@ blockquote{
 
 }
 
+
 .item {
 		border-bottom: 1px solid white;
 		min-height:2.5em;
@@ -592,6 +593,13 @@ blockquote{
 
 
 
+blockquote:after {
+  font-family: FontAwesome;
+  content: "\f10e";
+}
 
-
+blockquote:before {
+  font-family: FontAwesome;
+  content: "\f10d";
+}
 

@@ -69,7 +69,7 @@ h2, h3, h4, h5, h6, p {
   font-weight: normal; }
 
 h1 {
-  font-family: "Alfa Slab One", cursive;
+  font-family: 'Alfa Slab One', cursive;
   text-transform: uppercase;
   color: white;
   text-align: right;
@@ -132,7 +132,7 @@ blockquote, blockquote p {
 blockquote {
   margin: 0 0 20px;
   padding: 9px 20px 0 19px;
-  border-left: 1px solid #dddddd; }
+  border-left: 1px solid #ddd; }
 
 blockquote cite {
   display: block;
@@ -146,7 +146,7 @@ blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
   color: #555; }
 
 hr {
-  border: solid #dddddd;
+  border: solid #ddd;
   border-width: 1px 0 0;
   clear: both;
   margin: 10px 0 30px;
@@ -234,9 +234,9 @@ input[type="button"] {
   /* IE10+ */
   background: #eeeeee linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
   /* W3C */
-  border: 1px solid #aaaaaa;
-  border-top: 1px solid #cccccc;
-  border-left: 1px solid #cccccc;
+  border: 1px solid #aaa;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -272,16 +272,16 @@ input[type="button"]:hover {
   /* IE10+ */
   background: #dddddd linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
   /* W3C */
-  border: 1px solid #888888;
-  border-top: 1px solid #aaaaaa;
-  border-left: 1px solid #aaaaaa; }
+  border: 1px solid #888;
+  border-top: 1px solid #aaa;
+  border-left: 1px solid #aaa; }
 
 .button:active,
 button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
-  border: 1px solid #666666;
+  border: 1px solid #666;
   background: #ccc;
   /* Old browsers */
   background: #cccccc -moz-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
@@ -326,7 +326,7 @@ input[type="password"],
 input[type="email"],
 textarea,
 select {
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   padding: 6px 4px;
   outline: none;
   -moz-border-radius: 2px;
@@ -348,7 +348,7 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border: 1px solid #aaaaaa;
+  border: 1px solid #aaa;
   color: #444;
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
@@ -474,7 +474,7 @@ legend span {
     margin-right: 10px;
     line-height: 45px;
     font-weight: 800; }
-    @media (max-width: 1050px) {
+    @media (max-width:1050px) {
       #header h2 {
         margin-left: 80px; } }
   #header h3 {
@@ -515,7 +515,7 @@ blockquote {
     margin-left: 50px;
     line-height: 30px;
     font-size: 25px; }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width:600px) {
     .cardContent {
       width: 98%; } }
 
@@ -581,3 +581,11 @@ blockquote {
 .item {
   border-bottom: 1px solid white;
   min-height: 2.5em; }
+
+blockquote:after {
+  font-family: FontAwesome;
+  content: "\f10e"; }
+
+blockquote:before {
+  font-family: FontAwesome;
+  content: "\f10d"; }
