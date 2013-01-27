@@ -420,9 +420,9 @@ legend span {
   @media screen and (max-width: 900px) {
     #bottomBar {
       height: 40%; } }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 300px) {
     #bottomBar {
-      height: 50%; } }
+      height: 30%; } }
   #bottomBar h5 {
     margin: 60px auto;
     width: 100%;
