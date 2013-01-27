@@ -17,9 +17,10 @@
 ================================================== */
 .container {
   position: relative;
-  width: 960px;
+  width: 100%;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 0; }
+  padding: 20px; }
 
 .container .column,
 .container .columns {
@@ -144,9 +145,6 @@
 ================================================== */
 /* Note: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  .container {
-    width: 768px; }
-
   .container .column,
   .container .columns {
     margin-left: 10px;
@@ -268,9 +266,6 @@
 ================================================== */
 /* Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
-  .container {
-    width: 300px; }
-
   .container .columns,
   .container .column {
     margin: 0; }
@@ -317,9 +312,6 @@
 ================================================== */
 /* Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .container {
-    width: 420px; }
-
   .container .columns,
   .container .column {
     margin: 0; }

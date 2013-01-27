@@ -329,6 +329,11 @@ h4{
 /* #Index Page Elements
 ================================================== */
 
+.container{
+	@media screen and (max-width:1050px){
+		margin-left:50px;
+	}
+}
 
 #intropage h1{
 	max-width: pagewidth/2;
@@ -534,4 +539,17 @@ blockquote{
 		display: block;
 		padding: 1em;
 	}
+	ul{padding:20px;}
+
+	li{
+		a{
+			text-decoration: none;
+			font-family: 'Open Sans',sans-serif;
+			text-transform: uppercase;
+		}
+		font-size:20px;
+
+	}
+
+
 }

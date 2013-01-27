@@ -387,6 +387,10 @@ legend span {
 
 /* #Index Page Elements
 ================================================== */
+@media screen and (max-width: 1050px) {
+  .container {
+    margin-left: 50px; } }
+
 #intropage h1 {
   max-width: pagewidth/2; }
 
@@ -545,3 +549,11 @@ blockquote {
     float: left;
     display: block;
     padding: 1em; }
+  #menu ul {
+    padding: 20px; }
+  #menu li {
+    font-size: 20px; }
+    #menu li a {
+      text-decoration: none;
+      font-family: 'Open Sans',sans-serif;
+      text-transform: uppercase; }
