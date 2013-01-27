@@ -102,10 +102,10 @@ $blue:#045568;
 			margin-top:6%
 
 		}
-
+text-shadow: 1px 8px 8px #383535; 
 	}
 
-	h3 { font-family: "Open Sans", cursive;
+	h5 { font-family: "Open Sans", cursive;
 			font-weight: 100;
 			text-transform: lowercase;
 			color: white;
@@ -371,7 +371,7 @@ h4{
 
 	}
 
-	h3{
+	h5{
 		margin: 60px auto;
 		width: 100%;
 		text-align: center;
@@ -395,7 +395,7 @@ h4{
 
 	&:hover { background: rgba(255,255,255,.5); 
 
-		h3{
+		h5{
 			@include transition(color, .5, ease);
 			color:black;
 
@@ -453,14 +453,19 @@ h4{
 	p{
 		font-size:18px;
 		line-height:24px;
+		color:$black;
 	}
 
+}
+
+blockquote{
+	color:$black;
 }
 
 #bodybg{
 	width:100%;
 	height:auto;
-	opacity:.95;
+	opacity:.7;
 	background-color:$bggray;
 	padding-bottom:20px;
 }
