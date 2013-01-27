@@ -454,9 +454,14 @@ legend span {
 .clear {
   clear: both; }
 
+.training {
+  background-color: #ff7800; }
+
+.prep {
+  background-color: #045568; }
+
 #header {
   width: 100%;
-  background-color: #045568;
   opacity: .8;
   height: auto;
   padding-bottom: 17px;
@@ -471,7 +476,7 @@ legend span {
     font-weight: 800; }
     @media (max-width: 1050px) {
       #header h2 {
-        margin-left: 50px; } }
+        margin-left: 80px; } }
   #header h3 {
     color: #fff;
     font-size: 40px;
@@ -488,7 +493,8 @@ legend span {
   .cardContainer p {
     font-size: 25px;
     line-height: 30px;
-    color: black; }
+    color: black;
+    margin-top: 20px; }
 
 blockquote {
   color: black; }

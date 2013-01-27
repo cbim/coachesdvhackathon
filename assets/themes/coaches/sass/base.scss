@@ -418,13 +418,20 @@ h4{
 	clear:both;
 }
 
+
+	.training{
+		background-color:$orange;
+	}
+	.prep{	background-color:$blue;
+}
+
 #header{
 	width:100%;
-	background-color:$blue;
 	opacity: .8;
 	height:auto;
 	padding-bottom:17px;
 	padding-top:17px;
+
 
 
 	h2{
@@ -436,7 +443,7 @@ h4{
 		line-height:45px;
 		font-weight: 800;
 		@media(max-width:1050px){
-			margin-left:50px;
+			margin-left:80px;
 		}
 
 	}
@@ -460,6 +467,7 @@ h4{
 		font-size:25px;
 		line-height:30px;
 		color:$black;
+		margin-top:20px;
 	}
 
 }
