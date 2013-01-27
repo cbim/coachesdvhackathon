@@ -558,15 +558,27 @@ blockquote{
 			text-transform: uppercase;
 			font-weight: 800;
 			color:#fff;
+			font-size:24px;
+			margin-bottom:2em;
+			line-height:1.2em;
+
 		}
+
+			a:hover{
+				color: $orange;
+			}
+		
 		font-size:20px;
 		h3{
 						text-decoration: none;
 			font-family: 'Open Sans',sans-serif;
 			text-transform: uppercase;
 			font-weight: 800;
-			font-size:40px;
+
 		}
+
+		border-bottom: 1px solid white;
+		min-height:2.5em;
 
 	}
 
