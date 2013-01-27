@@ -6,6 +6,7 @@
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -35,6 +36,14 @@
     <!--<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>-->
     <script src="{{ ASSET_PATH }}/js/jquery.iosslider.js"></script>
     <script src="{{ ASSET_PATH }}/js/slideControls.js"></script>
+    <script type='text/javascript'>
+      if (window.navigator.standalone) {
+        $(document).on('click', 'a.start-cards', function() {
+          window.location.href = $(this).attr('href');
+          return false;
+        });
+      }
+    </script>
 
   </body>
 </html>
