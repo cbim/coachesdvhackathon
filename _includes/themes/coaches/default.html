@@ -25,38 +25,16 @@
   ================================================== -->
   <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans:300italic,400,300,800' rel='stylesheet' type='text/css'>
 
-
   </head>
 
   <body>
 
     {{content}}
 
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <!--<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>-->
     <script src="{{ ASSET_PATH }}/js/jquery.iosslider.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
+    <script src="{{ ASSET_PATH }}/js/slideControls.js"></script>
 
-          /* basic - default settings */
-          // $('.iosSlider').iosSlider();
-          
-          /* some custom settings */
-          $('.iosSlider').iosSlider({
-            snapToChildren: true,
-            scrollbar: true,
-            scrollbarHide: false,
-            desktopClickDrag: true,
-            scrollbarLocation: 'bottom',
-            scrollbarHeight: '6px',
-            // scrollbarBackground: 'url(_img/some-img.png) repeat 0 0',
-            scrollbarBorder: '1px solid #000',
-            scrollbarMargin: '0 30px 16px 30px',
-            scrollbarOpacity: '0.75'
-//            onSlideChange: changeSlideIdentifier
-          });
-
-        });
-    </script>
   </body>
 </html>

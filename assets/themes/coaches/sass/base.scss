@@ -448,6 +448,7 @@ h4{
 	min-width:300px;
 	height:800px;
 	position: relative;
+	clear: both;
 
 
 	p{
@@ -514,6 +515,23 @@ blockquote{
 }
 
 
+#menu {
+	position: relative;
 
+	.slideSelectors {
+		width: 16em;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: -16em;
+		background-color: #808080;
+		clear: both;
+		overflow: hidden;
+	}
 
-
+	.showMenu {
+		float: left;
+		display: block;
+		padding: 1em;
+	}
+}
