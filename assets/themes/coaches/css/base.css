@@ -75,8 +75,28 @@ h1 {
   text-align: right;
   margin-top: 10%;
   font-size: 46px;
-  line-height: 1.5em;
-  margin-bottom: 14px; }
+  line-height: 1.5em; }
+  @media screen and (max-width: 500px) {
+    h1 {
+      margin-top: 20%; } }
+  @media screen and (min-width: 1000px) {
+    h1 {
+      margin-top: 6%; } }
+
+h3 {
+  font-family: "Open Sans", cursive;
+  font-weight: 100;
+  text-transform: lowercase;
+  color: white;
+  text-align: right;
+  margin-top: 10%;
+  font-size: 60px;
+  position: fixed;
+  bottom: 0px;
+  margin: 70px auto;
+  z-index: 2; }
+  h3 a {
+    text-decoration: none; }
 
 h4 {
   color: #045568;
@@ -368,6 +388,64 @@ legend span {
 ================================================== */
 #intropage h1 {
   max-width: pagewidth/2; }
+
+#topBar {
+  height: 30px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0; }
+  #topBar p {
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px; }
+
+#bottomBar {
+  height: 150px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  bottom: 0;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -ms-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease; }
+  @media screen and (max-width: 1200px) {
+    #bottomBar {
+      height: 30%; } }
+  @media screen and (max-width: 900px) {
+    #bottomBar {
+      height: 40%; } }
+  @media screen and (max-width: 600px) {
+    #bottomBar {
+      height: 50%; } }
+  #bottomBar h3 {
+    margin: 60px auto;
+    width: 100%;
+    text-align: center; }
+    @media screen and (max-width: 1200px) {
+      #bottomBar h3 {
+        height: 10%; } }
+    @media screen and (max-width: 900px) {
+      #bottomBar h3 {
+        height: 20%; } }
+    @media screen and (max-width: 600px) {
+      #bottomBar h3 {
+        height: 30%; } }
+    @media screen and (max-width: 300px) {
+      #bottomBar h3 {
+        font-size: 36px; } }
+  #bottomBar:hover {
+    background: rgba(255, 255, 255, 0.5); }
+    #bottomBar:hover h3 {
+      -webkit-transition: color 0.5 ease;
+      -moz-transition: color 0.5 ease;
+      -ms-transition: color 0.5 ease;
+      -o-transition: color 0.5 ease;
+      transition: color 0.5 ease;
+      color: black; }
 
 /* #Card Pages
 ================================================== */
