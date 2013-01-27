@@ -84,6 +84,13 @@ $blue:#045568;
 		margin-top: 10%;
 		font-size: 46px; line-height: 1.5em; margin-bottom: 14px;}
 
+h4{
+		color:$blue;
+		font-size: 25px;
+		font-weight:500;
+		line-height:45px;
+	}
+
 	.subheader { color: #777; }
 
 	p { margin: 0 0 20px 0; 
@@ -353,8 +360,7 @@ $blue:#045568;
 	width:45%;
 	margin-right:5%;
 	float:left;
-	margin-bottom:10px;
-	border-bottom:1px solid $blue;
+	margin-bottom:20px;
 	li{
 		list-style:	circle;
 		margin-left:50px;

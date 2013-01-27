@@ -78,6 +78,12 @@ h1 {
   line-height: 1.5em;
   margin-bottom: 14px; }
 
+h4 {
+  color: #045568;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 45px; }
+
 .subheader {
   color: #777; }
 
@@ -412,8 +418,7 @@ legend span {
   width: 45%;
   margin-right: 5%;
   float: left;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #045568; }
+  margin-bottom: 20px; }
   .cardContent li {
     list-style: circle;
     margin-left: 50px; }
