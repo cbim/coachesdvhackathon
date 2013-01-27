@@ -512,7 +512,9 @@ blockquote {
   margin-bottom: 20px; }
   .cardContent li {
     list-style: circle;
-    margin-left: 50px; }
+    margin-left: 50px;
+    line-height: 30px;
+    font-size: 25px; }
   @media screen and (max-width: 600px) {
     .cardContent {
       width: 98%; } }
