@@ -1,0 +1,7 @@
+{
+  "category": "{{item.category}}",
+  "title": "{{ item.title | upcase }}",
+  "order": {{item.order}},
+  "number": {{item.number}},
+  "content": {{item.content | markdownify | json }}
+}
