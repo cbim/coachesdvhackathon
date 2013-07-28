@@ -1,0 +1,41 @@
+---
+layout: card
+title: Coaching Boys into Men
+tagline: Supporting tagline
+scripts: ['js/app.js', 'js/start_app.js']
+---
+{% include JB/setup %}
+
+<div id="menu">
+  <a href="#"class="showMenu" style="margin-bottom:-70px; z-index:4; position:relative;"><img src="assets/themes/coaches/img/dropdown.png"></a>
+  <div class="slideSelectors">
+    <ul>
+    <li class="item"><a href="#" data-slide="1">RESPECT</a></li>
+    <li class="item"><a href="#" data-slide="2">CBIM CARD SERIES</a></li>
+    <li class="item"><a href="#" data-slide="4">RECRUIT</a></li>
+    <li class="item"><a href="#" data-slide="5">WEEKLY MEETINGS</a></li>
+    <li class="item"><a href="#" data-slide="7">PRE-SEASON SPEECH</a></li>
+    <li class="item"><a href="#" data-slide="9">RESPONSIBILITY</a></li>
+    <li class="item"><a href="#" data-slide="11">BEHAVIOUR</a></li>
+  </ul>
+  </div>
+
+</div>
+
+<script type='text/template' id='card-list-template'>
+<div class="iosSlider">
+  <div class="slider"></div>
+</div>
+</script>
+
+<script type='text/template' id='card-template'>
+<div id="header" class="prep">
+  <div class="container">
+    <h2><%= category.toUpperCase() %> <%= number %></h2>
+    <h3><%= title %></h3>
+  </div>
+</div>
+<div class="container">
+  <%= content %>
+</div>  
+</script>
