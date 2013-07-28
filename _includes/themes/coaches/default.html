@@ -35,8 +35,11 @@
 
     <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
     <!--<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>-->
-    <script src="{{ ASSET_PATH }}/js/jquery.iosslider.js"></script>
+    <script src="{{ ASSET_PATH }}/js/libs/underscore-min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/libs/backbone-min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/libs/jquery.iosslider.js"></script>
     <script src="{{ ASSET_PATH }}/js/slideControls.js"></script>
+
     <script type='text/javascript'>
       if (window.navigator.standalone) {
         $(document).on('click', 'a.start-cards', function() {
@@ -45,6 +48,15 @@
         });
       }
     </script>
+
+    <!-- page specific scripts -->
+    {% if page.scripts %}
+    {% for script in page.scripts %}
+    <script src="{{ASSET_PATH}}/{{script}}" type="text/javascript"></script>
+    {% endfor %}
+    {% endif %}
+
+
 
   </body>
 </html>
