@@ -8,11 +8,14 @@ App.Views.Cards = Backbone.View.extend({
 
     this.listenTo(this.collection, 'reset', this.addAll);
     this.listenTo(this.collection, 'add', this.addOne);
+
+    this.listenTo(App.eventBus, 'open:menu', this.menuOpened);
   },
 
   render: function() {
     this.$el.html( this.template() );
 
+    this.$slider = this.$('.iosSlider');
     this.$wrapper = this.$('.slider');
     
     if(this.collection.length && this.$wrapper.empty()) {
@@ -47,5 +50,10 @@ App.Views.Cards = Backbone.View.extend({
       
     }
     
+  },
+
+  menuOpened: function() {
+    this.$slider.iosSlider('lock');
+  },
   }
 });
