@@ -1,0 +1,80 @@
+/* #Index Page Elements
+================================================== */
+
+#intropage h1{
+  max-width: pagewidth/2;
+
+}
+
+#topBar{
+  height:30px;
+  width:100%;
+  background: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+
+  p{
+    color:white;
+    width:100%;
+    text-align:center;
+    margin-top:5px;
+  }
+}
+
+#bottomBar{
+  height:150px;
+  width:100%;
+  background: rgba(0,0,0,.8);
+  position:fixed;
+  bottom:0;
+  @include transition(background-color, .5s, ease);
+
+  @media screen and (max-width: 1200px) {
+    height:30%;
+
+  }
+  @media screen and (max-width: 900px) {
+    height:40%;
+
+  }
+  @media screen and (max-width: 300px) {
+    height:30%;
+
+  }
+
+  h5{
+    margin: 60px auto;
+    width: 100%;
+    text-align: center;
+      @media screen and (max-width: 1200px) {
+      height:10%;
+
+      }
+      @media screen and (max-width: 900px) {
+        height:20%;
+
+      }
+      @media screen and (max-width: 600px) {
+        height:30%;
+
+      }
+      @media screen and (max-width: 300px) {
+        font-size:36px;
+
+      }
+      
+  }
+
+  &:hover { background: rgba(255,255,255,.5); 
+
+    h5{
+      @include transition(color, .5, ease);
+      color:black;
+
+
+
+    }
+
+  }
+
+}
