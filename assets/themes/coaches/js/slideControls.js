@@ -1,22 +1,21 @@
 $(document).ready(function() {
 
-    $('a.showMenu').toggle(function() {
-      $('#menu').animate({left: '16em'}, 300, function() {
-        $('.iosSlider').iosSlider('lock');
-      });
-    }, function() {
-      $('#menu').animate({left: 0}, 300, function() {
-        $('.iosSlider').iosSlider('unlock');
-      });
-    });
+    // $('a.showMenu').toggle(function() {
+    //   $('#menu').animate({left: '16em'}, 300, function() {
+    //     $('.iosSlider').iosSlider('lock');
+    //   });
+    // }, function() {
+    //   $('#menu').animate({left: 0}, 300, function() {
+    //     $('.iosSlider').iosSlider('unlock');
+    //   });
+    // });
 
-    $('.slideSelectors .item a').click(function() {
-      var num = $(this).data('slide');
-      $('.iosSlider').iosSlider('goToSlide', num);
-      $('a.showMenu').click();
-      return false;
-    });
-     
+    // $('.slideSelectors .item a').click(function() {
+    //   var num = $(this).data('slide');
+    //   $('.iosSlider').iosSlider('goToSlide', num);
+    //   $('a.showMenu').click();
+    //   return false;
+    // });
 
   $('.iosSlider').iosSlider({
     desktopClickDrag: true,

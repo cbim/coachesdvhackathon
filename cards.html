@@ -6,21 +6,7 @@ scripts: ['js/app.js', 'js/start_app.js']
 ---
 {% include JB/setup %}
 
-<div id="menu">
-  <a href="#"class="showMenu" style="margin-bottom:-70px; z-index:4; position:relative;"><img src="assets/themes/coaches/img/dropdown.png"></a>
-  <div class="slideSelectors">
-    <ul>
-    <li class="item"><a href="#" data-slide="1">RESPECT</a></li>
-    <li class="item"><a href="#" data-slide="2">CBIM CARD SERIES</a></li>
-    <li class="item"><a href="#" data-slide="4">RECRUIT</a></li>
-    <li class="item"><a href="#" data-slide="5">WEEKLY MEETINGS</a></li>
-    <li class="item"><a href="#" data-slide="7">PRE-SEASON SPEECH</a></li>
-    <li class="item"><a href="#" data-slide="9">RESPONSIBILITY</a></li>
-    <li class="item"><a href="#" data-slide="11">BEHAVIOUR</a></li>
-  </ul>
-  </div>
-
-</div>
+<div class="menu-container"></div>
 
 <script type='text/template' id='card-list-template'>
 <div class="iosSlider">
@@ -37,5 +23,17 @@ scripts: ['js/app.js', 'js/start_app.js']
 </div>
 <div class="container">
   <%= content %>
-</div>  
+</div>
+</script>
+
+<script type='text/template' id='menu-template'>
+  <a href="#"class="showMenu" style="margin-bottom:-70px; z-index:4; position:relative;"><img src="assets/themes/coaches/img/dropdown.png"></a>
+  <div class="slideSelectors">
+    <ul>
+    </ul>
+  </div>
+</script>
+
+<script type='text/template' id='menu-item-template'>
+  <li class="item"><a href="#" data-slide="<%= slide %>"><%= title %></a></li>
 </script>
