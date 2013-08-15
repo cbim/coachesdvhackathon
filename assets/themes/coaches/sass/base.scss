@@ -71,11 +71,20 @@ h4 {
 	clear:both;
 }
 
-.training{
-	background-color:$orange;
+.training {
+	background-color: $training-color;
 }
-.prep{
-	background-color:$blue;
+.prep {
+	background-color: $prep-color;
+}
+.halftime {
+	background-color: $halftime-color;
+}
+.overtime {
+	background-color: $overtime-color;
+}
+.teachable {
+	background-color: $teachable-color;
 }
 
 #header {

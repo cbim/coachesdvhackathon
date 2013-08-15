@@ -131,10 +131,19 @@ h4 {
   clear: both; }
 
 .training {
-  background-color: #ff7800; }
+  background-color: #8ab831; }
 
 .prep {
-  background-color: #045568; }
+  background-color: #0d3f78; }
+
+.halftime {
+  background-color: #791b83; }
+
+.overtime {
+  background-color: #791b83; }
+
+.teachable {
+  background-color: #e30f19; }
 
 #header {
   width: 100%;
