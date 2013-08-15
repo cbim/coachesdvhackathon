@@ -17,9 +17,12 @@ App.Views.Cards = Backbone.View.extend({
   render: function() {
     this.$el.html( this.template() );
 
-    this.$slider = this.$('.iosSlider');
-    this.$wrapper = this.$('.slider');
-    
+    this.$wrapper = this.$el;
+
+    if (! this.slider) {
+      this.slider = new App.Models.BxSlider({}, this.$el);
+    }
+
     if(this.collection.length && this.$wrapper.empty()) {
       this.addAll();
     }
@@ -49,19 +52,25 @@ App.Views.Cards = Backbone.View.extend({
       else {
         this.$wrapper.append(view.el);
       }
-      
     }
+
+    this.slider.reload();
   },
 
   menuOpened: function() {
-    this.$slider.iosSlider('lock');
+    this.slider.lock();
   },
 
   menuClosed: function() {
-    this.$slider.iosSlider('unlock');
+    this.slider.unlock();
   },
 
   showSlide: function(num) {
-    this.$slider.iosSlider('goToSlide', num);
+    this.slider.goToSlide(num);
+  },
+
+  initializeSlider: function() {
+    this.slider.init();
   }
+
 });

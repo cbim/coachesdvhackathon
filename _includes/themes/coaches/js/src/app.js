@@ -27,6 +27,7 @@
 
     var cardsView = new App.Views.Cards({ collection: cards });
     menu.$el.append(cardsView.render().el);
+    cardsView.initializeSlider();
 
     cards.fetch();
   };
