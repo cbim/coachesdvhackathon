@@ -124,3 +124,42 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+  # Prose.io Configuration
+  prose:
+    media: "assets/themes/coaches/img"
+    metadata:
+      cards:
+        - name: "layout"
+          field:
+            element: "hidden"
+            value: "card"
+        - name: "title"
+          field:
+            element: "text"
+            label: "Card Title"
+            placeholder: "provide a title for this card"
+        - name: "category"
+          field:
+            element: "select"
+            label: "Category"
+            options:
+              - name: "Prep"
+                value: "prep"
+              - name: "Training"
+                value: "training"
+              - name: "Halftime"
+                value: "halftime"
+              - name: "Overtime"
+                value: "overtime"
+              - name: "Teachable"
+                value: "teachable"
+        - name: "order"
+          field:
+            element: "number"
+            label: "Order of the card across all cards (in all categories)"
+            value: 1
+        - name: "number"
+          field:
+            element: "number"
+            label: "Number of the card in this category"
+            value: 1
