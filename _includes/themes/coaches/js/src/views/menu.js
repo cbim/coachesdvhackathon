@@ -50,7 +50,7 @@ App.Views.Menu = Backbone.View.extend({
       var $prev = this.$itemsContainer.find('[data-slide="' + index +'"]');
 
       if ($prev.length) {
-        $(prev).after($item);
+        $prev.parent('li').after($item);
       }
       else {
         this.$itemsContainer.append($item);
