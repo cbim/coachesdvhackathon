@@ -133,11 +133,6 @@ prose:
         field:
           element: "hidden"
           value: "card"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Card Title"
-          placeholder: "provide a title for this card"
       - name: "category"
         field:
           element: "select"
