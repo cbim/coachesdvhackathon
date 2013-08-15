@@ -46,7 +46,8 @@ App.Views.Menu = Backbone.View.extend({
       this.$itemsContainer.prepend($item);  
     }
     else {
-      var $prev = this.$itemsContainer.find('[data-slide="' + (index - 1) +'"]');
+      // index is 0-based but slide numbers are 1-based.
+      var $prev = this.$itemsContainer.find('[data-slide="' + index +'"]');
 
       if ($prev.length) {
         $(prev).after($item);
