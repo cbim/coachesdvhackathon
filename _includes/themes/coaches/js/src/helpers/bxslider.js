@@ -31,4 +31,5 @@ p.defaults = {
   infiniteLoop: true,
   adaptiveHeight: false,
   oneToOneTouch: false,
+  swipeThreshold: 100
 };
