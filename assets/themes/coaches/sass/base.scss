@@ -6,7 +6,7 @@
 ================================================== */
 body {
 	background:#FFF;
-  background: url(../img/bg_orange.jpg) no-repeat center center fixed;
+  background: url(../img/page_background.jpg) no-repeat center center fixed;
   @include vendor-prefix(background-size, cover);
 	font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #444;

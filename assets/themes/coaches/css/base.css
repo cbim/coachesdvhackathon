@@ -69,7 +69,7 @@
 ================================================== */
 body {
   background: #FFF;
-  background: url(../img/bg_orange.jpg) no-repeat center center fixed;
+  background: url(../img/page_background.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -ms-background-size: cover;
