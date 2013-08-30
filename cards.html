@@ -12,14 +12,16 @@ scripts: ['js/app.js', 'js/start_app.js']
 </script>
 
 <script type='text/template' id='card-template'>
-<div id="header" class="<%= category %>">
+<div id="header">
   <div class="container">
     <h2><%= category.toUpperCase() %> <%= number %></h2>
     <h3><%= title %></h3>
   </div>
 </div>
 <div class="container">
-  <%= content %>
+  <div class="content">
+    <%= content %>
+  </div>
 </div>
 </script>
 

@@ -130,27 +130,38 @@ h4 {
 .clear {
   clear: both; }
 
-.training {
-  background-color: #8ab831; }
-
-.prep {
+.prep #header {
   background-color: #0d3f78; }
+.prep .content {
+  border: 3px solid #0d3f78; }
 
-.halftime {
+.training #header {
+  background-color: #8ab831; }
+.training .content {
+  border: 3px solid #8ab831; }
+
+.halftime #header {
   background-color: #791b83; }
+.halftime .content {
+  border: 3px solid #791b83; }
 
-.overtime {
+.overtime #header {
   background-color: #791b83; }
+.overtime .content {
+  border: 3px solid #791b83; }
 
-.teachable {
+.teachable #header {
   background-color: #e30f19; }
+.teachable .content {
+  border: 3px solid #e30f19; }
 
 #header {
   width: 100%;
-  opacity: .8;
+  opacity: 1;
   height: auto;
   padding-bottom: 17px;
-  padding-top: 17px; }
+  padding-top: 17px;
+  text-shadow: 1px 2px 1px black; }
   #header h2 {
     color: #fff;
     font-size: 40px;
@@ -172,8 +183,7 @@ h4 {
 .cardContainer {
   width: 100%;
   min-width: 300px;
-  min-height: 500px;
-  height: 100%;
+  min-height: 800px;
   position: relative;
   clear: both; }
   .cardContainer p {
@@ -181,6 +191,8 @@ h4 {
     line-height: 30px;
     color: black;
     margin-top: 20px; }
+  .cardContainer .container {
+    padding-left: 0px; }
 
 blockquote {
   color: black; }
@@ -188,9 +200,16 @@ blockquote {
 #bodybg {
   width: 100%;
   height: auto;
-  opacity: .7;
-  background-color: #c6c5c2;
   padding-bottom: 20px; }
+
+#bodybg:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(transparent, black); }
 
 .cardContent {
   width: 45%;
@@ -204,29 +223,11 @@ blockquote {
   @media screen and (max-width: 600px) {
     .cardContent {
       width: 98%; } }
-
-/* slider container */
-.iosSlider {
-  /* required */
-  position: relative;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 100%; }
-
-/* slider */
-.iosSlider .slider {
-  /* required */
-  width: 100%;
-  height: 100%; }
-
-/* slide */
-.iosSlider .slider .slide {
-  /* required */
-  float: left;
-  width: 100%;
-  height: 100%; }
+  .cardContent .content {
+    background-color: #fff;
+    padding: 10px 20px 5px 20px;
+    margin-top: 10px;
+    border-radius: 10px; }
 
 #menu {
   position: relative; }
@@ -280,4 +281,8 @@ blockquote:before {
 =========================== */
 .bx-wrapper .bx-viewport {
   border: none;
-  background: none; }
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  left: 0; }
