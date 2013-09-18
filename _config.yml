@@ -154,7 +154,7 @@ prose:
           label: "Order of the card across all cards (in all categories)"
           value: 1
           type: "number"
-      - name: "number"
+      - name: "card_number"
         field:
           element: "number"
           label: "Number of the card in this category"
