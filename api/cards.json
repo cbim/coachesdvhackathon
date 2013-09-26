@@ -1,6 +1,6 @@
 ---
 ---
 [
-{% for item in site.pages %} {% if item.category == 'prep' or item.category == 'training' %} {% include themes/coaches/card.json %}, {% endif %}{% endfor %}
+{% for item in site.pages %} {% if item.category == 'prep' or item.category == 'training' or item.category == 'overtime' or item.category == 'halftime' or item.category == 'teachable' %} {% include themes/coaches/card.json %}, {% endif %}{% endfor %}
 false
 ]
