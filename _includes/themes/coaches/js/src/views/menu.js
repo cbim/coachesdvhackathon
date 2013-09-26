@@ -17,6 +17,9 @@ App.Views.Menu = Backbone.View.extend({
     this.template = _.template($(this.templateName).html());
     this.itemTemplate = _.template($(this.itemTemplateName).html());
 
+    this.listenTo(App.eventBus, 'slider:load', this.onSliderLoad);
+    this.listenTo(App.eventBus, 'slide:change', this.onSlideChange);
+
     this.listenTo(this.collection, 'reset', this.addAll);
   },
 
@@ -123,5 +126,35 @@ App.Views.Menu = Backbone.View.extend({
     this.close();
 
     return false;
+  },
+
+  onSliderLoad: function(currentIndex) {
+    var $current = this._getMenuLink(currentIndex + 1);
+
+    this._makeCurrent( $current );
+    this.openCategory($current.parents('.menu__category'));
+  },
+
+  onSlideChange: function($slideElement, oldIndex, newIndex) {
+    var $prev = this._getMenuLink(oldIndex + 1),
+        $current = this._getMenuLink(newIndex + 1);
+
+    this._removeCurrent($prev);
+    this._makeCurrent($current);
+
+    this.openCategory($current.parents('.menu__category'));
+  },
+
+  _removeCurrent: function($elem) {
+    $elem.removeClass(this.currentClass);
+  },
+
+  _makeCurrent: function($elem) {
+    $elem.addClass(this.currentClass);
+  },
+
+  _getMenuLink: function(index) {
+    return this.$('.item a[data-slide="' + index + '"]');
   }
+
 });

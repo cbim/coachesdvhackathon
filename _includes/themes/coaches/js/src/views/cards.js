@@ -81,9 +81,23 @@ App.Views.Cards = Backbone.View.extend({
       options.controls = true;
     }
 
+    options.onSlideAfter = _.bind(this.onSlideAfter, this);
+    options.onSliderLoad = _.bind(this.onSliderLoad, this);
+    console.log(options);
+
     if (! this.slider) {
       this.slider = new App.Models.BxSlider(options, this.$el);
     }
+  },
+
+  // After changing to a new slide, execute this
+  onSlideAfter: function($slideElement, oldIndex, newIndex) {
+    App.eventBus.trigger('slide:change', $slideElement, oldIndex, newIndex);
+  },
+
+  // When slider is loaded the first time, execute this
+  onSliderLoad: function(currentIndex) {
+    App.eventBus.trigger('slider:load', currentIndex);
   }
 
 });
