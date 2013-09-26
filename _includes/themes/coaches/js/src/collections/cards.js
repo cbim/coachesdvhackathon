@@ -10,5 +10,9 @@ App.Collections.Cards = Backbone.Collection.extend({
       response.pop();
     }
     return response;
+  },
+
+  byCategory: function() {
+    return this.groupBy(function(o) {  return o.get('category'); });
   }
 });

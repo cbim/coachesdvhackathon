@@ -7,15 +7,17 @@ App.Views.Menu = Backbone.View.extend({
 
   events: {
     'click a.showMenu': 'toggle',
-    'click .slideSelectors .item a': 'goToSlide'
+    'click .slideSelectors .item a': 'goToSlide',
+    'click .menu__category': 'showCategory'
   },
+
+  currentClass: 'current',
 
   initialize: function() {
     this.template = _.template($(this.templateName).html());
     this.itemTemplate = _.template($(this.itemTemplateName).html());
 
     this.listenTo(this.collection, 'reset', this.addAll);
-    this.listenTo(this.collection, 'add', this.addOne);
   },
 
   render: function() {
@@ -31,7 +33,22 @@ App.Views.Menu = Backbone.View.extend({
   },
 
   addAll: function() {
-    this.collection.each(this.addOne, this);
+    _.each(this.collection.byCategory(), this.addCategory, this);
+  },
+
+  addCategory: function(items, category) {
+    items = _.map(items, function(o, i) {
+      var d = o.toJSON();
+      d.slide = this.collection.indexOf(o) + 1;
+      return d;
+    }, this);
+
+    var data = {
+      category: category,
+      items: items
+    };
+
+    this.$itemsContainer.append( $(this.itemTemplate(data)) );
   },
 
   addOne: function(card) {
@@ -57,6 +74,18 @@ App.Views.Menu = Backbone.View.extend({
       }
       
     }
+  },
+
+  showCategory: function(event) {
+    var $elem = $(event.target);
+    this.openCategory($elem);
+
+    return false;
+  },
+
+  openCategory: function($elem) {
+    this.$('.open').toggleClass('open');
+    $elem.addClass('open');
   },
 
   toggle: function() {

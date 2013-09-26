@@ -245,7 +245,7 @@ blockquote {
     display: block;
     padding: 1em; }
   #menu ul {
-    padding: 20px; }
+    padding: 15px; }
     #menu ul li {
       font-size: 20px; }
       #menu ul li a {
@@ -254,7 +254,7 @@ blockquote {
         text-transform: uppercase;
         font-weight: 800;
         color: #fff;
-        font-size: 24px;
+        font-size: 14px;
         margin-bottom: 2em;
         line-height: 1.2em; }
         #menu ul li a:hover {
@@ -266,8 +266,30 @@ blockquote {
         font-weight: 800; }
 
 .item {
-  border-bottom: 1px solid white;
-  min-height: 2.5em; }
+  min-height: 1.3em; }
+
+.item a.current {
+  color: #ff7800 !important; }
+
+.menu__category {
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer; }
+  .menu__category:before {
+    font-family: FontAwesome;
+    content: "\f0da";
+    margin-right: 2px; }
+  .menu__category ul {
+    padding: 6px 6px 6px 10px !important;
+    margin: 5px 0px 0px 0px;
+    display: none; }
+
+.menu__category.open ul {
+  display: block; }
+.menu__category.open:before {
+  font-family: FontAwesome;
+  content: "\f0d7";
+  margin-right: 2px; }
 
 blockquote:after {
   font-family: FontAwesome;

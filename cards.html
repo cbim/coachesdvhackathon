@@ -33,6 +33,16 @@ scripts: ['js/app.js', 'js/start_app.js']
   </div>
 </script>
 
-<script type='text/template' id='menu-item-template'>
+<script type='text/template' id='menu-item-template-old'>
   <li class="item"><a href="#" data-slide="<%= slide %>"><%= title %></a></li>
+</script>
+
+<script type='text/template' id='menu-item-template'>
+  <li class='menu__category <%= category %>'><%= category.toUpperCase() %>
+    <ul>
+      <% _.each(items, function(item) { %>
+        <li class="item"><a href="#" data-slide="<%= item.slide %>"><%= item.title %></a></li>
+      <% }); %>
+    </ul>
+  </li>
 </script>

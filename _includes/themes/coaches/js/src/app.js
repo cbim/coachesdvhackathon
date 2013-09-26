@@ -29,7 +29,7 @@
     menu.$el.append(cardsView.render().el);
     cardsView.initializeSlider();
 
-    cards.fetch();
+    cards.fetch({reset: true});
   };
 
   window.app = {init: App.init};
