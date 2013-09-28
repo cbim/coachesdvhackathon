@@ -1,15 +1,36 @@
 ---
 layout: card
-title: cbim card series
+title: RECRUIT ALLIES
 category: prep
 order: 2
 number: 2
 ---
 
-Use the Card Series to lead weekly discussions with your athletes throughout the season. The set includes:
+Inform others of the commitment your team is making. This will enhance your program’s success. We encourage you to work with a variety of people to increase school wide awareness and support for Coaching Boys into Men:
 
-Prep Cards to help you get ready for the season.
+- School administrators
+- Athletic Director
+- Violence prevention advocate
+- Fellow coaches
+- Parents
+- School newspaper, local sports reporter, or other local media
 
-Training Cards, each with a key topic for you to discuss with your athletes each week (at least 10 - 15 minutes per week).
+Before the season begins, invite these allies to support you in the implementation of Coaching Boys into Men, and continue to involve them week after week.
 
-Halftime and Overtime Cards to use throughout the season to gain greater exposure for your team's commitment. Teachable Moment Card to help you respond to harmful behavior or language.
+Share copies of the **Coaching Boys into Men Overview**, using it as a way to introduce anyone to the program.
+
+Visit  [www.CoachesCorner.org](http://www.coachescorner.org/) for community engagement ideas from fellow coaches!
+
+RESOURCES
+---------
+
+- Learn your school district's policies and legal responsibilities. In cases involving issues of harassment, abuse, or physical and sexual violence, there may be reporting requirements you are mandated to follow.
+- When you feel something is more serious than you can handle, there are experts and resouces available to you and your athletes. Refer to the **Need Help** list in your Coaches Kit.
+- The National Dosmetic Violence Hotline is available 24 hours a day, 7 days a week for anonymous help. They can be reached at 1-800-799-SAFE (7233) or at [www.ndvh.org](http://www.ndvh.org).
+- Ask your school counselor for contact information of local resouces such as:
+    - Statewide or local domestic violence or sexual assault agencies
+    - School and community teen programs
+    - Lesbian, gay, bisexual, transgender and queer (LGBTQ) youth organizations
+
+##### References & Resources:
+See Coaches Kit for CBIM Overview and Need Help list.
