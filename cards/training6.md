@@ -6,17 +6,10 @@ order: 9
 number: 6
 ---
 
-<strong>
-This training will help athletes:
-1. Discuss and respect personal boundaries 
-around intimate and sexual activities to 
-create healthy, safe relationships and 
-situations.
-2. Refuse to use pressure, threats, or force 
-in any physical or sexual encounter.
-3. Actively oppose and prevent incidents of 
-rape, sexual coercion and assault.
-</strong>
+**This training will help athletes:**
+1. **Discuss and respect personal boundaries around intimate and sexual activities to create healthy, safe relationships and situations.**
+2. **Refuse to use pressure, threats, or force in any physical or sexual encounter.**
+3. **Actively oppose and prevent incidents of rape, sexual coercion and assault.**
 
 Warm Up
 -------

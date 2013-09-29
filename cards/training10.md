@@ -6,14 +6,9 @@ order: 14
 number: 10
 ---
 
-<strong>
-This training will help athletes:
-1. Recognize the importance of talking with 
-their partner about what’s okay, or not okay, 
-in their relationships.
-2. Initiate conversations about setting 
-boundaries in relationships.
-</strong>
+**This training will help athletes:**
+1. **Recognize the importance of talking with their partner about what’s okay, or not okay, in their relationships.**
+2. **Initiate conversations about setting boundaries in relationships.**
 
 Warm Up
 -------

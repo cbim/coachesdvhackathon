@@ -6,15 +6,10 @@ order: 6
 number: 3
 ---
 
-<strong>
-This training will help athletes:
-1. Recognize that language can be harmful 
-in unexpected ways.
-2. Refuse to use language that degrades 
-women and girls.
-3. Adapt their language to show respect 
-for others.
-</strong>
+**This training will help athletes:**
+1. **Recognize that language can be harmful in unexpected ways.**
+2. **Refuse to use language that degrades women and girls.**
+3. **Adapt their language to show respect for others.**
 
 Warm Up
 -------

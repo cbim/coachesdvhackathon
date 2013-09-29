@@ -6,12 +6,10 @@ order: 4
 number: 1
 ---
 
-<strong>
-This training will help athletes:
 
-1. Understand your expectations and ground rules for the upcoming season, such as arriving on time, respectful behavior, etc.
-2. Anticipate upcoming CBIM program trainings focusing on building healthy relationships and respect for women and girls.
-</strong>
+**This training will help athletes:**
+1. **Understand your expectations and ground rules for the upcoming season, such as arriving on time, respectful behavior, etc.**
+2. **Anticipate upcoming CBIM program trainings focusing on building healthy relationships and respect for women and girls.**
 
 Warm Up
 -------
@@ -30,7 +28,7 @@ or your sister. Each week, I want
 to talk to you guys about some 
 of these things. Starting today, we 
 will focus on how we can better 
-show respect to ourselves, you
+show respect to ourselves, your teammates, and others.
 </blockquote>
 
 Ask the Players

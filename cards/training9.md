@@ -6,16 +6,10 @@ order: 13
 number: 9
 ---
 
-<strong>
-This training will help athletes:
-1. Reject the use of pressure or intimidation 
-in their relationships and friendships.
-2. Refer back to tools on how to monitor 
-aggression and determine when it crosses 
-the line.
-3. Refuse to become abusive or violent in 
-their relationships.
-</strong>
+**This training will help athletes:**
+1. **Reject the use of pressure or intimidation in their relationships and friendships.**
+2. **Refer back to tools on how to monitor aggression and determine when it crosses the line.**
+3. **Refuse to become abusive or violent in their relationships.**
 
 Warm Up
 -------

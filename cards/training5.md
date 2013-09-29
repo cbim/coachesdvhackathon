@@ -6,18 +6,10 @@ order: 8
 number: 5
 ---
 
-<strong>
-This training will help athletes:
-1. Recognize that the actions they take online 
-and on their cell phone have real consequences.
-2. Refuse to participate in abusive or 
-controlling digital behavior including sending 
-repeated and unwanted text messages, violating 
-someone’s privacy, or pressuring someone for a 
-naked, private, or embarrassing picture.
-3. Create safe and respectful digital spaces for 
-themselves and others.
-</strong>
+**This training will help athletes:**
+1. **Recognize that the actions they take online and on their cell phone have real consequences.**
+2. **Refuse to participate in abusive or controlling digital behavior including sending repeated and unwanted text messages, violating someone’s privacy, or pressuring someone for a naked, private, or embarrassing picture.**
+3. **Create safe and respectful digital spaces for themselves and others.**
 
 Warm Up
 -------

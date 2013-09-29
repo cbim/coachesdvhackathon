@@ -6,14 +6,9 @@ order: 16
 number: 12
 ---
 
-<strong>
-This training will help athletes:
-1. Actively affirm their and the team’s 
-collective commitment against relationship 
-abuse.
-2. Serve as public examples of respect 
-towards others, particularly women and girls.
-</strong>
+**This training will help athletes:**
+1. **Actively affirm their and the team’s collective commitment against relationship abuse.**
+2. **Serve as public examples of respect towards others, particularly women and girls.**
 
 Warm Up
 -------

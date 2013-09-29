@@ -19,7 +19,7 @@ Before the season begins, invite these allies to support you in the implementati
 
 Share copies of the **Coaching Boys into Men Overview**, using it as a way to introduce anyone to the program.
 
-Visit  [www.CoachesCorner.org](http://www.coachescorner.org/) for community engagement ideas from fellow coaches!
+Visit [www.CoachesCorner.org](http://www.coachescorner.org/) for community engagement ideas from fellow coaches!
 
 RESOURCES
 ---------

@@ -6,15 +6,9 @@ order: 7
 number: 4
 ---
 
-<strong>
-This training will help athletes:
-1. Recognize how certain behavior towards 
-women and girls can be hurtful, scary, or 
-even abusive.
-2. Refuse to engage in lewd or foul behavior 
-such as catcalling, sexual innuendo, or 
-harassment.
-</strong>
+**This training will help athletes:**
+1. **Recognize how certain behavior towards women and girls can be hurtful, scary, or even abusive.**
+2. **Refuse to engage in lewd or foul behavior such as catcalling, sexual innuendo, or harassment.**
 
 Warm Up
 -------

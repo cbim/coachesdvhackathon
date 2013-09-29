@@ -6,16 +6,10 @@ order: 15
 number: 11
 ---
 
-<strong>
-This training will help athletes:
-1. Treat others how they want to be treated.
-2.Model respectful behavior towards 
-women and girls in language and actions 
-(e.g., refuse to laugh at or support 
-disrespectful jokes).
-3. Notice and support teammates’ or 
-friends’ respectful behavior.
-</strong>
+**This training will help athletes:**
+1. **Treat others how they want to be treated.**
+2. **Model respectful behavior towards women and girls in language and actions (e.g., refuse to laugh at or support disrespectful jokes).**
+3. **Notice and support teammates’ or friends’ respectful behavior.**
 
 Warm Up
 -------

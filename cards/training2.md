@@ -3,18 +3,12 @@ layout: card
 title: Personal Responsibility
 category: training
 order: 5
-number: 3
+number: 2
 ---
 
-<strong>
-This training will help athletes:
-1. Recognize the consequences of their 
-behavior and how their language and 
-conduct reflect on themselves, the team, 
-and others.
-2. Accept responsibility and hold 
-themselves accountable for their actions.
-</strong>
+**This training will help athletes:**
+1. **Recognize the consequences of their behavior and how their language and conduct reflect on themselves, the team, and others.**
+2. **Accept responsibility and hold themselves accountable for their actions.**
 
 Warm Up
 -------

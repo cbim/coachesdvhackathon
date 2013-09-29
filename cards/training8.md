@@ -6,15 +6,10 @@ order: 12
 number: 8
 ---
 
-<strong>
-This training will help athletes:
-1. Recognize different degrees of 
-aggression on and off the field.
-2. Identify when they are becoming 
-aggressive.
-3. Adjust their behavior when they feel 
-themselves becoming too aggressive.
-</strong>
+**This training will help athletes:**
+1. **Recognize different degrees of aggression on and off the field.**
+2. **Identify when they are becoming aggressive.**
+3. **Adjust their behavior when they feel themselves becoming too aggressive.**
 
 Warm Up
 -------

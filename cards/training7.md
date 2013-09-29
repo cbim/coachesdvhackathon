@@ -6,18 +6,10 @@ order: 11
 number: 7
 ---
 
-<strong>
-This training will help athletes:
-1. Recognize that bragging or lying about 
-their sexual reputation is disrespectful and 
-wrong.
-2. Recognize that spreading stories about 
-someone else’s sexual activity can be 
-disrespectful and harmful.
-3. Refuse to spread private information 
-or to speak disrespectfully about another 
-person’s sexual reputation.
-</strong>
+**This training will help athletes:**
+1. **Recognize that bragging or lying about their sexual reputation is disrespectful and wrong.**
+2. **Recognize that spreading stories about someone else’s sexual activity can be disrespectful and harmful.**
+3. **Refuse to spread private information or to speak disrespectfully about another person’s sexual reputation.**
 
 Warm Up
 -------
