@@ -87,7 +87,7 @@ body {
 
 /* #Typography
 ================================================== */
-h1 {
+#fittext1 {
   font-family: "Alfa Slab One", cursive;
   text-transform: uppercase;
   color: white;
@@ -97,34 +97,36 @@ h1 {
   line-height: 1.5em;
   text-shadow: 1px 8px 8px #383535; }
   @media screen and (max-width: 500px) {
-    h1 {
+    #fittext1 {
       margin-top: 20%; } }
   @media screen and (min-width: 1000px) {
-    h1 {
+    #fittext1 {
       margin-top: 6%; } }
 
-h5 {
+#bottomBar h5 {
   font-family: "Open Sans", cursive;
   font-weight: 100;
   text-transform: lowercase;
   color: white;
-  text-align: right;
+  text-align: center;
   margin-top: 10%;
   font-size: 60px;
   position: fixed;
   bottom: 0px;
   margin: 70px auto;
   z-index: 2; }
-  h5 a {
+  #bottomBar h5 a {
     text-decoration: none; }
 
+/*
 h4 {
-  color: #045568;
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 45px;
-  margin-top: 10px; }
-
+	color:$blue;
+	font-size: 40px;
+	font-weight:500;
+	line-height:45px;
+	margin-top:10px;
+}
+*/
 /* #Card Pages
 ================================================== */
 .clear {
@@ -134,26 +136,36 @@ h4 {
   background-color: #0d3f78; }
 .prep .content {
   border: 3px solid #0d3f78; }
+  .prep .content h2, .prep .content strong {
+    color: #0d3f78; }
 
 .training #header {
   background-color: #8ab831; }
 .training .content {
   border: 3px solid #8ab831; }
+  .training .content h2, .training .content strong {
+    color: #8ab831; }
 
 .halftime #header {
   background-color: #791b83; }
 .halftime .content {
   border: 3px solid #791b83; }
+  .halftime .content h2, .halftime .content strong {
+    color: #791b83; }
 
 .overtime #header {
   background-color: #791b83; }
 .overtime .content {
   border: 3px solid #791b83; }
+  .overtime .content h2, .overtime .content strong {
+    color: #791b83; }
 
 .teachable #header {
   background-color: #e30f19; }
 .teachable .content {
   border: 3px solid #e30f19; }
+  .teachable .content h2, .teachable .content strong {
+    color: #e30f19; }
 
 #header {
   width: 100%;
@@ -161,7 +173,7 @@ h4 {
   height: auto;
   padding-bottom: 17px;
   padding-top: 17px;
-  text-shadow: 1px 2px 1px black; }
+  text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.6); }
   #header h2 {
     color: #fff;
     font-size: 40px;
@@ -186,11 +198,6 @@ h4 {
   min-height: 800px;
   position: relative;
   clear: both; }
-  .cardContainer p {
-    font-size: 25px;
-    line-height: 30px;
-    color: black;
-    margin-top: 20px; }
   .cardContainer .container {
     padding-left: 0px; }
 
@@ -215,11 +222,6 @@ blockquote {
   width: 45%;
   float: left;
   margin-bottom: 20px; }
-  .cardContent li {
-    list-style: circle;
-    margin-left: 50px;
-    line-height: 30px;
-    font-size: 25px; }
   @media screen and (max-width: 600px) {
     .cardContent {
       width: 98%; } }
@@ -227,7 +229,13 @@ blockquote {
     background-color: #fff;
     padding: 10px 20px 5px 20px;
     margin-top: 10px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    font-size: 15px; }
+    .cardContent .content a {
+      color: #ff7800; }
+    .cardContent .content blockquote {
+      background: #f9f9f9;
+      font-size: 17px; }
 
 #menu {
   position: relative; }
@@ -240,30 +248,34 @@ blockquote {
     background-color: #808080;
     clear: both;
     overflow: hidden; }
+    #menu .slideSelectors ul {
+      padding: 15px;
+      list-style: none outside; }
+      #menu .slideSelectors ul li {
+        font-size: 20px; }
+        #menu .slideSelectors ul li a {
+          text-decoration: none;
+          font-family: 'Open Sans',sans-serif;
+          text-transform: uppercase;
+          font-weight: 800;
+          color: #fff;
+          font-size: 14px;
+          margin-bottom: 2em;
+          line-height: 1.2em; }
+          #menu .slideSelectors ul li a:hover {
+            color: #ff7800; }
+        #menu .slideSelectors ul li h3 {
+          text-decoration: none;
+          font-family: 'Open Sans',sans-serif;
+          text-transform: uppercase;
+          font-weight: 800; }
+    #menu .slideSelectors ul ul li {
+      margin-bottom: 6px;
+      line-height: 18px; }
   #menu .showMenu {
     float: left;
     display: block;
     padding: 1em; }
-  #menu ul {
-    padding: 15px; }
-    #menu ul li {
-      font-size: 20px; }
-      #menu ul li a {
-        text-decoration: none;
-        font-family: 'Open Sans',sans-serif;
-        text-transform: uppercase;
-        font-weight: 800;
-        color: #fff;
-        font-size: 14px;
-        margin-bottom: 2em;
-        line-height: 1.2em; }
-        #menu ul li a:hover {
-          color: #ff7800; }
-      #menu ul li h3 {
-        text-decoration: none;
-        font-family: 'Open Sans',sans-serif;
-        text-transform: uppercase;
-        font-weight: 800; }
 
 .item {
   min-height: 1.3em; }

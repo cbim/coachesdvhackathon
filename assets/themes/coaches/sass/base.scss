@@ -21,7 +21,7 @@ body {
 /* #Typography
 ================================================== */
 
-h1 {
+#fittext1 {
 	font-family: 'Alfa Slab One', cursive;
   text-transform: uppercase;
   color: white;
@@ -38,24 +38,26 @@ h1 {
 	text-shadow: 1px 8px 8px #383535;
 }
 
-h5 {
-	font-family: "Open Sans", cursive;
-  font-weight: 100;
-  text-transform: lowercase;
-  color: white;
-  text-align: right;
-  margin-top: 10%;
-  font-size: 60px;
-  position: fixed;
-  bottom: 0px;
-  margin: 70px auto;
-  z-index: 2;
+#bottomBar {
+	h5 {
+		font-family: "Open Sans", cursive;
+	  font-weight: 100;
+	  text-transform: lowercase;
+	  color: white;
+	  text-align: center;
+	  margin-top: 10%;
+	  font-size: 60px;
+	  position: fixed;
+	  bottom: 0px;
+	  margin: 70px auto;
+	  z-index: 2;
 
-	a {
-  	text-decoration:none;
+		a {
+	  	text-decoration:none;
+		}
 	}
 }
-
+/*
 h4 {
 	color:$blue;
 	font-size: 40px;
@@ -63,6 +65,7 @@ h4 {
 	line-height:45px;
 	margin-top:10px;
 }
+*/
 
 /* #Card Pages
 ================================================== */
@@ -79,6 +82,9 @@ h4 {
 		}
 		.content {
 			border: 3px solid $color;
+			h2, strong {
+				color: $color;
+			}
 		}
 	}
 
@@ -90,7 +96,7 @@ h4 {
 	height:auto;
 	padding-bottom:17px;
 	padding-top:17px;
-	text-shadow: 1px 2px 1px #000;
+	text-shadow: 1px 3px 1px rgba(0,0,0,0.6);
 
 	h2 {
 		color:#fff;
@@ -121,12 +127,12 @@ h4 {
 	position: relative;
 	clear: both;
 
-	p {
-		font-size:25px;
-		line-height:30px;
-		color:$black;
-		margin-top:20px;
-	}
+	// p {
+	// 	font-size:25px;
+	// 	line-height:30px;
+	// 	color:$black;
+	// 	margin-top:20px;
+	// }
 
 	.container {
 		padding-left: 0px;
@@ -156,12 +162,13 @@ blockquote{
 	width:45%;
 	float:left;
 	margin-bottom:20px;
-	li {
-		list-style:	circle;
-		margin-left:50px;
-		line-height:30px;
-		font-size:25px;
-	}
+
+	// li {
+	// 	list-style:	circle;
+	// 	margin-left:50px;
+	// 	line-height:30px;
+	// 	font-size:25px;
+	// }
 
 	@media screen and (max-width:600px) {
 		width:98%;
@@ -172,6 +179,15 @@ blockquote{
 		padding: 10px 20px 5px 20px;
 		margin-top: 10px;
 		border-radius: 10px;
+		font-size: 15px;
+		a {
+			color: $orange;
+		}
+
+		blockquote {
+			background: #f9f9f9;
+			font-size: 17px;
+		}
 	}
 }
 
@@ -187,16 +203,11 @@ blockquote{
 		background-color: #808080;
 		clear: both;
 		overflow: hidden;
-	}
 
-	.showMenu {
-		float: left;
-		display: block;
-		padding: 1em;
-	}
 
 	ul {
 		padding: 15px;
+		list-style: none outside;
 
 		li {
 			a {
@@ -221,6 +232,21 @@ blockquote{
 				font-weight: 800;
 			}
 		}
+	}
+
+		ul ul li {
+			margin-bottom: 6px;
+			line-height: 18px;
+		}
+
+
+
+	}
+
+	.showMenu {
+		float: left;
+		display: block;
+		padding: 1em;
 	}
 
 }
