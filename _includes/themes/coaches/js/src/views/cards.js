@@ -9,8 +9,6 @@ App.Views.Cards = Backbone.View.extend({
     this.listenTo(this.collection, 'reset', this.addAll);
     this.listenTo(this.collection, 'add', this.addOne);
 
-    this.listenTo(App.eventBus, 'open:menu', this.menuOpened);
-    this.listenTo(App.eventBus, 'close:menu', this.menuClosed);
     this.listenTo(App.eventBus, 'show:slide', this.showSlide);
   },
 
@@ -55,14 +53,6 @@ App.Views.Cards = Backbone.View.extend({
     this.slider.reload();
   },
 
-  menuOpened: function() {
-    this.slider.lock();
-  },
-
-  menuClosed: function() {
-    this.slider.unlock();
-  },
-
   showSlide: function(num) {
     this.slider.goToSlide(num);
   },
@@ -83,7 +73,6 @@ App.Views.Cards = Backbone.View.extend({
 
     options.onSlideAfter = _.bind(this.onSlideAfter, this);
     options.onSliderLoad = _.bind(this.onSliderLoad, this);
-    console.log(options);
 
     if (! this.slider) {
       this.slider = new App.Models.BxSlider(options, this.$el);
