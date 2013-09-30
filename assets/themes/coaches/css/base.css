@@ -383,3 +383,9 @@ blockquote:before {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   left: 0; }
+
+/* #About
+=========================== */
+.about {
+  background-color: #fff;
+  margin-top: 60px; }
