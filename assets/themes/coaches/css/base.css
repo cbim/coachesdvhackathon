@@ -189,7 +189,6 @@ h4 {
   opacity: 1;
   height: auto;
   padding-bottom: 17px;
-  padding-top: 17px;
   text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.6); }
   #header h2 {
     color: #fff;
@@ -197,6 +196,7 @@ h4 {
     text-transform: uppercase;
     float: left;
     margin-right: 10px;
+    margin-top: 10px;
     line-height: 45px;
     font-weight: 800; }
     @media (max-width: 1050px) {
@@ -207,7 +207,8 @@ h4 {
     font-size: 40px;
     float: left;
     font-weight: 200;
-    line-height: 45px; }
+    line-height: 45px;
+    margin-top: 10px; }
 
 .cardContainer {
   width: 100%;
@@ -215,8 +216,15 @@ h4 {
   min-height: 800px;
   position: relative;
   clear: both; }
-  .cardContainer .container {
-    padding-left: 0px; }
+  @media screen and (min-device-width: 480px) {
+    .cardContainer .container {
+      padding-left: 0px; } }
+  @media screen and (max-device-width: 480px) {
+    .cardContainer .container {
+      padding-left: 3px;
+      padding-right: 3px; }
+    .cardContainer .content h2 {
+      word-break: break-word; } }
 
 blockquote {
   color: black; }
@@ -349,11 +357,8 @@ blockquote {
 .menu__category {
   color: #fff;
   font-size: 24px;
-  cursor: pointer; }
-  .menu__category:before {
-    font-family: FontAwesome;
-    content: "\f0da";
-    margin-right: 2px; }
+  cursor: pointer;
+  margin-bottom: 10px; }
   .menu__category ul {
     padding: 6px 6px 6px 10px !important;
     margin: 5px 0px 0px 0px;
@@ -361,10 +366,6 @@ blockquote {
 
 .menu__category.open ul {
   display: block; }
-.menu__category.open:before {
-  font-family: FontAwesome;
-  content: "\f0d7";
-  margin-right: 2px; }
 
 blockquote:after {
   font-family: FontAwesome;
