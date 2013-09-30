@@ -23,7 +23,7 @@ CBIM CARD SERIES
 Use the Card Series to lead weekly discussions with your athletes throughout the season. The set includes:
 
 - **Prep Cards** to help you get ready for the season.
-- **Trainign Cards** each with a key topic for you to discuss with your athletes each week (at least 15 – 20 minutes per week).
+- **Training Cards** each with a key topic for you to discuss with your athletes each week (at least 15 – 20 minutes per week).
 - **Halftime and Overtime Cards** to use throughout the season to highlight your team’s commitment.
 - **Teachable Moment Card** to help you respond to harmful behavior or language.
 
