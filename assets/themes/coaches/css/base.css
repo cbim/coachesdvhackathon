@@ -367,6 +367,13 @@ blockquote {
 .menu__category.open ul {
   display: block; }
 
+.menu__about-link {
+  position: absolute;
+  bottom: 0;
+  left: 25px; }
+  .menu__about-link a {
+    color: #ff7800; }
+
 blockquote:after {
   font-family: FontAwesome;
   content: "\f10e"; }

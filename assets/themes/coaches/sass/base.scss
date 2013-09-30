@@ -393,6 +393,15 @@ $footer-margin: 0 auto;
 	// }
 }
 
+.menu__about-link {
+	a {
+		color: $orange;
+	}
+	position: absolute;
+	bottom: 0;
+	left: 25px;
+}
+
 blockquote:after {
   font-family: FontAwesome;
   content: "\f10e";
