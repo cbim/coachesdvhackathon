@@ -151,6 +151,8 @@ App.Views.Menu = Backbone.View.extend({
 
   _makeCurrent: function($elem) {
     $elem.addClass(this.currentClass);
+
+    $('body').removeClass().addClass($elem.data('category'));
   },
 
   _getMenuLink: function(index) {

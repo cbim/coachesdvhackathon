@@ -18,6 +18,26 @@ body {
  	color: #FFF;
 }
 
+/*
+body.prep, body.training, body.hafltime, body.overtime, body.teachable {
+		&:after {
+		content: '\00A9iStock.com';
+		color: #999;
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+	}
+}
+*/
+
+body.training {
+	background: url(../img/page_background_training.jpg) no-repeat center center fixed;
+}
+
+body.halftime, body.overtime {
+	background: url(../img/page_background_half_overtime.jpg) no-repeat center center fixed;
+}
+
 /* #Typography
 ================================================== */
 
