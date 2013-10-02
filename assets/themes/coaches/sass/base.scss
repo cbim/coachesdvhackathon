@@ -30,11 +30,11 @@ body.prep, body.training, body.hafltime, body.overtime, body.teachable {
 }
 */
 
-body.training {
-  background: url(../img/page_background_training.jpg) no-repeat center center fixed;
-}
+//body.training {
+//  background: url(../img/page_background_training.jpg) no-repeat center center fixed;
+//}
 
-body.halftime, body.overtime {
+body.halftime, body.overtime, body.training {
   background: url(../img/page_background_half_overtime.jpg) no-repeat center center fixed;
 }
 
