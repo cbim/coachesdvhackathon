@@ -22,57 +22,97 @@
 }
 
 #bottomBar{
-  height:150px;
+  height: 200px;
   width:100%;
   background: rgba(0,0,0,.8);
   position:fixed;
   bottom:0;
+  clear: both;
   @include transition(background-color, .5s, ease);
+
+  .futures-logo {
+    display: inline-block;
+    margin-left: 5%;
+    float: left;
+  }
+
+  .cbim-logo {
+    margin-right: 5%;
+    display: inline-block;
+    float: right;
+  }
+
+  .copyright {
+    text-align:center;
+    margin-top: 15px;
+    a {
+      color: $orange;
+    }
+  }
+
+  .start-cards {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20%;
+  }
 
   @media screen and (max-width: 1200px) {
     height:30%;
-
   }
   @media screen and (max-width: 900px) {
     height:40%;
-
+    .start-cards {
+      margin-left: 7%;
+    }
+    .futures-logo {
+      margin-left: 2%;
+    }
+    .cbim-logo {
+      margin-right: 2%;
+    }
   }
   @media screen and (max-width: 300px) {
     height:30%;
-
+    .start-cards {
+      margin-left: 3%;
+    }
   }
 
-  h5{
-    margin: 60px auto;
+  h5.get-started {
     width: 100%;
     text-align: center;
-      @media screen and (max-width: 1200px) {
-      height:10%;
+    font-family: "Open Sans", cursive;
+    font-weight: 100;
+    font-size: 60px;
+    text-transform: lowercase;
+    color: white;
+    z-index: 2;
 
-      }
-      @media screen and (max-width: 900px) {
-        height:20%;
+    a {
+      text-decoration:none;
+    }
 
-      }
-      @media screen and (max-width: 600px) {
-        height:30%;
 
-      }
-      @media screen and (max-width: 300px) {
-        font-size:36px;
-
-      }
+    @media screen and (max-width: 1200px) {
+    height:10%;
+    }
+    @media screen and (max-width: 900px) {
+      height:20%;
+    }
+    @media screen and (max-width: 600px) {
+      height:30%;
+    }
+    @media screen and (max-width: 300px) {
+      font-size:36px;
+    }
       
   }
 
-  &:hover { background: rgba(255,255,255,.5); 
-
-    h5{
+  &:hover {
+    background: rgba(255,255,255,.5); 
+    h5, p {
       @include transition(color, .5, ease);
       color:black;
-
-
-
     }
 
   }

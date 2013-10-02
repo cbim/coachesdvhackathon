@@ -20,44 +20,77 @@
     margin-top: 5px; }
 
 #bottomBar {
-  height: 150px;
+  height: 200px;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
   position: fixed;
   bottom: 0;
+  clear: both;
   -webkit-transition: background-color 0.5s ease;
   -moz-transition: background-color 0.5s ease;
   -ms-transition: background-color 0.5s ease;
   -o-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease; }
+  #bottomBar .futures-logo {
+    display: inline-block;
+    margin-left: 5%;
+    float: left; }
+  #bottomBar .cbim-logo {
+    margin-right: 5%;
+    display: inline-block;
+    float: right; }
+  #bottomBar .copyright {
+    text-align: center;
+    margin-top: 15px; }
+    #bottomBar .copyright a {
+      color: #ff7800; }
+  #bottomBar .start-cards {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20%; }
   @media screen and (max-width: 1200px) {
     #bottomBar {
       height: 30%; } }
   @media screen and (max-width: 900px) {
     #bottomBar {
-      height: 40%; } }
+      height: 40%; }
+      #bottomBar .start-cards {
+        margin-left: 7%; }
+      #bottomBar .futures-logo {
+        margin-left: 2%; }
+      #bottomBar .cbim-logo {
+        margin-right: 2%; } }
   @media screen and (max-width: 300px) {
     #bottomBar {
-      height: 30%; } }
-  #bottomBar h5 {
-    margin: 60px auto;
+      height: 30%; }
+      #bottomBar .start-cards {
+        margin-left: 3%; } }
+  #bottomBar h5.get-started {
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    font-family: "Open Sans", cursive;
+    font-weight: 100;
+    font-size: 60px;
+    text-transform: lowercase;
+    color: white;
+    z-index: 2; }
+    #bottomBar h5.get-started a {
+      text-decoration: none; }
     @media screen and (max-width: 1200px) {
-      #bottomBar h5 {
+      #bottomBar h5.get-started {
         height: 10%; } }
     @media screen and (max-width: 900px) {
-      #bottomBar h5 {
+      #bottomBar h5.get-started {
         height: 20%; } }
     @media screen and (max-width: 600px) {
-      #bottomBar h5 {
+      #bottomBar h5.get-started {
         height: 30%; } }
     @media screen and (max-width: 300px) {
-      #bottomBar h5 {
+      #bottomBar h5.get-started {
         font-size: 36px; } }
   #bottomBar:hover {
     background: rgba(255, 255, 255, 0.5); }
-    #bottomBar:hover h5 {
+    #bottomBar:hover h5, #bottomBar:hover p {
       -webkit-transition: color 0.5 ease;
       -moz-transition: color 0.5 ease;
       -ms-transition: color 0.5 ease;
@@ -121,21 +154,6 @@ body.halftime, body.overtime {
   @media screen and (min-width: 1000px) {
     #fittext1 {
       margin-top: 6%; } }
-
-#bottomBar h5 {
-  font-family: "Open Sans", cursive;
-  font-weight: 100;
-  text-transform: lowercase;
-  color: white;
-  text-align: center;
-  margin-top: 10%;
-  font-size: 60px;
-  position: fixed;
-  bottom: 0px;
-  margin: 70px auto;
-  z-index: 2; }
-  #bottomBar h5 a {
-    text-decoration: none; }
 
 /*
 h4 {

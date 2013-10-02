@@ -60,25 +60,7 @@ body.halftime, body.overtime {
   text-shadow: 1px 8px 8px #383535;
 }
 
-#bottomBar {
-  h5 {
-    font-family: "Open Sans", cursive;
-    font-weight: 100;
-    text-transform: lowercase;
-    color: white;
-    text-align: center;
-    margin-top: 10%;
-    font-size: 60px;
-    position: fixed;
-    bottom: 0px;
-    margin: 70px auto;
-    z-index: 2;
 
-    a {
-      text-decoration:none;
-    }
-  }
-}
 /*
 h4 {
   color:$blue;
