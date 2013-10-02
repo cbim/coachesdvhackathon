@@ -387,9 +387,7 @@ $footer-margin: 0 0 0 230px;
   a {
     color: $orange;
   }
-  position: absolute;
-  bottom: 0;
-  left: 25px;
+  margin-left: 25px;
 }
 
 blockquote:after {
