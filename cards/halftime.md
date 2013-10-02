@@ -18,7 +18,7 @@ the community is recognizing their
 commitment.
 - This is a great way to involve the 
 broader community and provide other 
-opportunities **for your athletes to model respectful behavior.**
+opportunities for your athletes to model respectful behavior.
 
 
 ##### References & Resouces

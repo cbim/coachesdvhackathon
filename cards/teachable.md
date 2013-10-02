@@ -1,7 +1,7 @@
 ---
 layout: card
 title: HOW TO HANDLE A TEACHABLE MOMENT
-category: teachable
+category: postgame
 order: 19
 number: 1
 ---
