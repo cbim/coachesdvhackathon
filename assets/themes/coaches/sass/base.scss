@@ -166,7 +166,7 @@ blockquote{
 ========================== */
 
 $footer-height: 80px;
-$footer-margin: 0 auto;
+$footer-margin: 0 0 0 230px;
 
 #footer {
   height: $footer-height;
@@ -184,10 +184,16 @@ $footer-margin: 0 auto;
   margin: 10px 0;
 }
 
-.footer__logo {
+.footer__logo-cbim {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.footer__logo-futures {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #bodybg {
@@ -210,13 +216,13 @@ $footer-margin: 0 auto;
 
 @media screen and (min-device-width: 320px) and (max-device-width: 1024px) {
   .footer-container {
-    margin: 0 90px 0 0;
+    margin: 0 90px 0 230px;
   }
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   #footer {
-    height: 120px;
+    height: 150px;
   }
   #bodybg {
     margin: 0 auto -120px;
