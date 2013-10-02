@@ -40,6 +40,6 @@ incident could have been prevented.
 What positive alternatives were available?
 
 <strong>
-*It’s also important to take a time out to 
+It’s also important to take a time out to 
 commend positive, respectful behavior! 
 </strong>
