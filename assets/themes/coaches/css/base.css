@@ -201,6 +201,13 @@ h4 {
   .teachable .content h2, .teachable .content strong {
     color: #e30f19; }
 
+.postgame #header {
+  background-color: #e30f19; }
+.postgame .content {
+  border: 3px solid #e30f19; }
+  .postgame .content h2, .postgame .content strong {
+    color: #e30f19; }
+
 #header {
   width: 100%;
   opacity: 1;

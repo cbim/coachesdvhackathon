@@ -78,7 +78,7 @@ h4 {
   clear:both;
 }
 
-@each $type in prep, training, halftime, overtime, teachable {
+@each $type in $card-types {
   $color: cardColor($type);
   .#{$type} {
     #header {
