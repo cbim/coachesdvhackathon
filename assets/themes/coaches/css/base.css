@@ -87,13 +87,13 @@ body {
 
 /*
 body.prep, body.training, body.hafltime, body.overtime, body.teachable {
-		&:after {
-		content: '\00A9iStock.com';
-		color: #999;
-		position: absolute;
-		bottom: 10px;
-		right: 10px;
-	}
+    &:after {
+    content: '\00A9iStock.com';
+    color: #999;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
 }
 */
 body.training {
@@ -105,13 +105,15 @@ body.halftime, body.overtime {
 /* #Typography
 ================================================== */
 #fittext1 {
-  font-family: "Alfa Slab One", cursive;
+  font-family: 'Alfa Slab One', cursive;
   text-transform: uppercase;
   color: white;
-  text-align: right;
+  text-align: left;
   margin-top: 10%;
   font-size: 46px;
   line-height: 1.5em;
+  margin-left: 2%;
+  margin-right: 2%;
   text-shadow: 1px 8px 8px #383535; }
   @media screen and (max-width: 500px) {
     #fittext1 {
@@ -137,11 +139,11 @@ body.halftime, body.overtime {
 
 /*
 h4 {
-	color:$blue;
-	font-size: 40px;
-	font-weight:500;
-	line-height:45px;
-	margin-top:10px;
+  color:$blue;
+  font-size: 40px;
+  font-weight:500;
+  line-height:45px;
+  margin-top:10px;
 }
 */
 /* #Card Pages
