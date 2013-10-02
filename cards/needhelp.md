@@ -30,7 +30,7 @@ The National Domestic Violence Hotline, operating 24 hours a day, 365 days a yea
 in Spanish and English, with access to more than 170 languages through interpreter services. The hotline provides crisis intervention, safety planning, information, and referrals to agencies in all 50 states, Puerto Rico, and the U.S. Virgin Islands.
 
 <strong>
-Rape, Abuse & Incest National Network (RAINN) Hotline 
+Rape, Abuse &amp; Incest National Network (RAINN) Hotline 
 1-800-656-HOPE (4673)
 [www.rainn.org](www.rainn.org)
 </strong>
@@ -60,3 +60,4 @@ Futures Without Violence, formerly Family Violence Prevention Fund
 1-415-678-5500
 [www.FuturesWithoutViolence.org](www.FuturesWithoutViolence.org)
 Futures Without Violence works to prevent and end violence against women, children, and families around the world.
+</strong>
