@@ -33,15 +33,15 @@
   transition: background-color 0.5s ease; }
   #bottomBar .futures-logo {
     display: inline-block;
-    margin-left: 5%;
+    margin-left: 2%;
     float: left; }
   #bottomBar .cbim-logo {
-    margin-right: 5%;
+    margin-right: 2%;
     display: inline-block;
     float: right; }
   #bottomBar .copyright {
     text-align: center;
-    margin-top: 15px; }
+    margin-top: 25px; }
     #bottomBar .copyright a {
       color: #ff7800; }
   #bottomBar .start-cards {
