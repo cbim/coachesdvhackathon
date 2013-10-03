@@ -28,7 +28,7 @@ p.unlock = function() {
 p.defaults = {
   pager: false,
   controls: false,
-  infiniteLoop: true,
+  infiniteLoop: false,
   adaptiveHeight: false,
   oneToOneTouch: false,
   swipeThreshold: 100
