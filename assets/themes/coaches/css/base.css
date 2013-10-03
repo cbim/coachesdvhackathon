@@ -290,8 +290,10 @@ blockquote {
   height: 100%;
   min-height: 100%;
   margin: 0 auto -105px;
-  padding: 0 0 105px; }
+  padding: 0 0 105px;
+  background: linear-gradient(transparent, #222222); }
 
+/*
 #bodybg:before {
   content: '';
   width: 100%;
@@ -299,8 +301,9 @@ blockquote {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(transparent, #222222); }
-
+  background: linear-gradient(transparent, #222);
+}
+*/
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   #footer {
     height: 150px; }
