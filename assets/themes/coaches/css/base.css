@@ -201,11 +201,11 @@ h4 {
   .teachable .content h2, .teachable .content strong {
     color: #e30f19; }
 
-.postgame #header {
+.help #header {
   background-color: #e30f19; }
-.postgame .content {
+.help .content {
   border: 3px solid #e30f19; }
-  .postgame .content h2, .postgame .content strong {
+  .help .content h2, .help .content strong {
     color: #e30f19; }
 
 .about #header {
