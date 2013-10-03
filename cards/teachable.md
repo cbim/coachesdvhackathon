@@ -1,9 +1,10 @@
 ---
 layout: card
 title: HOW TO HANDLE A TEACHABLE MOMENT
-category: postgame
+category: teachable
+category-name: Teachable Moment
 order: 19
-number: 1
+number: 0
 ---
 
 Step 1: STOP

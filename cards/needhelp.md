@@ -1,9 +1,9 @@
 ---
 layout: card
 title: Need Help?
-category: postgame
+category: help
 order: 20
-number: 2
+number: 0
 ---
 
 Below is a list of national organizations that may be helpful for you and your players. These organizations can be contacted from anywhere within the United States. They operate 24 hours a day and in various languages.

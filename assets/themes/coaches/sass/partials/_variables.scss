@@ -10,7 +10,7 @@ $training-color:  #8AB831;
 $halftime-color:  #791B83;
 $overtime-color:  $halftime-color;
 $teachable-color: #E30F19;
-$postgame-color: #E30F19;
+$help-color: #E30F19;
 
-$card-types: (prep, training, halftime, overtime, teachable, postgame, about);
-$card-colors: ($prep-color, $training-color, $halftime-color, $overtime-color, $teachable-color, $postgame-color, $prep-color);
+$card-types: (prep, training, halftime, overtime, teachable, help, about);
+$card-colors: ($prep-color, $training-color, $halftime-color, $overtime-color, $teachable-color, $help-color, $prep-color);
