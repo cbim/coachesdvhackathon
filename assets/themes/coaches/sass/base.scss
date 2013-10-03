@@ -165,8 +165,8 @@ blockquote{
 /* Footer
 ========================== */
 
-$footer-height: 80px;
-$footer-margin: 0 0 0 230px;
+$footer-height: 105px;
+$footer-margin: 0 330px 0 0;
 
 #footer {
   height: $footer-height;
@@ -193,7 +193,7 @@ $footer-margin: 0 0 0 230px;
 .footer__logo-futures {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
 }
 
 #bodybg {
@@ -215,9 +215,9 @@ $footer-margin: 0 0 0 230px;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 1024px) {
-  .footer-container {
-    margin: 0 90px 0 230px;
-  }
+//  .footer-container {
+//    margin: 0 90px 0 230px;
+//  }
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
