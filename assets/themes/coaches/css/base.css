@@ -208,6 +208,13 @@ h4 {
   .postgame .content h2, .postgame .content strong {
     color: #e30f19; }
 
+.about #header {
+  background-color: #0d3f78; }
+.about .content {
+  border: 3px solid #0d3f78; }
+  .about .content h2, .about .content strong {
+    color: #0d3f78; }
+
 #header {
   width: 100%;
   opacity: 1;
@@ -418,6 +425,6 @@ blockquote:before {
 
 /* #About
 =========================== */
-.about {
+.about-container {
   background-color: #fff;
   margin-top: 60px; }
