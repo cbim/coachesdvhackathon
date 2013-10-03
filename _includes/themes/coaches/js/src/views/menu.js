@@ -81,9 +81,19 @@ App.Views.Menu = Backbone.View.extend({
 
   showCategory: function(event) {
     var $elem = $(event.target);
-    this.openCategory($elem);
+
+    if ($elem.hasClass('open')) {
+      this.closeCategory($elem);
+    }
+    else {
+      this.openCategory($elem);
+    }
 
     return false;
+  },
+
+  closeCategory: function($elem) {
+    $elem.removeClass('open');
   },
 
   openCategory: function($elem) {
