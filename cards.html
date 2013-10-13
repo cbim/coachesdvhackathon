@@ -14,7 +14,7 @@ scripts: ['js/app.js', 'js/start_app.js']
 <script type='text/template' id='card-template'>
 <div id="header">
   <div class="container">
-    <h2><%= category.toUpperCase() %> <% if (number) { %><%= number %><% } %></h2>
+    <% if (number) { %><h2><%= category.toUpperCase() %> <%= number %></h2><% } %>
     <h3><%= title %></h3>
   </div>
 </div>
