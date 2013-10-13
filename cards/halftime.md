@@ -3,7 +3,7 @@ layout: card
 title: ENLIST YOUR LOCAL SPORTS REPORTER 
 category: halftime
 order: 10
-number: 1
+number: 0
 ---
 
 - Tell your school newspaper or local sports reporter about the CBIM 
