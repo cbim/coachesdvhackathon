@@ -25,7 +25,7 @@ RESOURCES
 ---------
 
 - Learn your school district's policies and legal responsibilities. In cases involving issues of harassment, abuse, or physical and sexual violence, there may be reporting requirements you are mandated to follow.
-- When you feel something is more serious than you can handle, there are experts and resouces available to you and your athletes. Refer to the **Need Help** list in your Coaches Kit.
+- When you feel something is more serious than you can handle, there are experts and resouces available to you and your athletes. Refer to the **<a href="#" class="js-slide-link" data-slide="19">Need Help</a>** list in your Coaches Kit.
 - The National Dosmetic Violence Hotline is available 24 hours a day, 7 days a week for anonymous help. They can be reached at 1-800-799-SAFE (7233) or at [www.ndvh.org](http://www.ndvh.org).
 - Ask your school counselor for contact information of local resouces such as:
     - Statewide or local domestic violence or sexual assault agencies
