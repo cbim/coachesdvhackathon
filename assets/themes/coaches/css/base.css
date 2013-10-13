@@ -135,7 +135,7 @@ body.halftime, body.overtime, body.training {
 /* #Typography
 ================================================== */
 #fittext1 {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   text-transform: uppercase;
   color: white;
   text-align: left;
@@ -360,17 +360,6 @@ blockquote {
       list-style: none outside; }
       #menu .slideSelectors ul li {
         font-size: 20px; }
-        #menu .slideSelectors ul li a {
-          text-decoration: none;
-          font-family: 'Open Sans',sans-serif;
-          text-transform: uppercase;
-          font-weight: 800;
-          color: #fff;
-          font-size: 14px;
-          margin-bottom: 2em;
-          line-height: 1.2em; }
-          #menu .slideSelectors ul li a:hover {
-            color: #ff7800; }
         #menu .slideSelectors ul li h3 {
           text-decoration: none;
           font-family: 'Open Sans',sans-serif;
@@ -392,7 +381,7 @@ blockquote {
 
 .menu__category {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
   margin-bottom: 10px; }
   .menu__category ul {
@@ -402,6 +391,28 @@ blockquote {
 
 .menu__category.open ul {
   display: block; }
+
+.menu__category-link {
+  text-decoration: none;
+  font-family: 'Open Sans',sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 2em;
+  line-height: 1.2em; }
+  .menu__category-link:hover {
+    color: #ff7800; }
+
+.menu__category-link--single {
+  text-decoration: none;
+  color: #fff; }
+  .menu__category-link--single:hover {
+    text-decoration: none;
+    color: #fff; }
+
+.menu__category-link--single.current {
+  color: #ff7800; }
 
 .menu__about-link {
   margin-left: 25px; }

@@ -5,6 +5,8 @@ App.Views.Menu = Backbone.View.extend({
 
   itemTemplateName: '#menu-item-template',
 
+  singleCategoryTemplateName: '#menu-single-category-template',
+
   events: {
     'click a.showMenu': 'toggle',
     'click .js-slide-link': 'goToSlide',
@@ -16,6 +18,7 @@ App.Views.Menu = Backbone.View.extend({
   initialize: function() {
     this.template = _.template($(this.templateName).html());
     this.itemTemplate = _.template($(this.itemTemplateName).html());
+    this.singleCategoryTemplate = _.template($(this.singleCategoryTemplateName).html());
 
     this.listenTo(App.eventBus, 'slider:load', this.onSliderLoad);
     this.listenTo(App.eventBus, 'slide:change', this.onSlideChange);
@@ -51,7 +54,14 @@ App.Views.Menu = Backbone.View.extend({
       items: items
     };
 
-    this.$itemsContainer.append( $(this.itemTemplate(data)) );
+    var html = '';
+    if (items.length == 1) {
+      html = this.singleCategoryTemplate(data);
+    }
+    else {
+      html = this.itemTemplate(data);
+    }
+    this.$itemsContainer.append( html );
   },
 
   addOne: function(card) {
@@ -166,7 +176,7 @@ App.Views.Menu = Backbone.View.extend({
   },
 
   _getMenuLink: function(index) {
-    return this.$('.item a[data-slide="' + index + '"]');
+    return this.$('.menu__category a[data-slide="' + index + '"]');
   }
 
 });
