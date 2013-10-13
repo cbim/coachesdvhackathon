@@ -7,7 +7,7 @@ App.Views.Menu = Backbone.View.extend({
 
   events: {
     'click a.showMenu': 'toggle',
-    'click .slideSelectors .item a': 'goToSlide',
+    'click .js-slide-link': 'goToSlide',
     'click .menu__category': 'showCategory'
   },
 
