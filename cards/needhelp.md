@@ -48,9 +48,10 @@ The Trevor Project provides crisis and suicide prevention services to lesbian, g
 
 It’s also important to know your local resources. Ask your school counselor or nurse about programs or services offered in your community. The national resources listed above can also help connect you with local resources.
 
-FOR MORE INFO:<br>
+FOR MORE INFO:
+
 <strong>
-Futures Without Violence, formerly Family Violence Prevention Fund <br>
+Futures Without Violence, formerly Family Violence Prevention Fund<br>
 1-415-678-5500<br>
 </strong>
 [www.FuturesWithoutViolence.org](www.FuturesWithoutViolence.org)<br>
