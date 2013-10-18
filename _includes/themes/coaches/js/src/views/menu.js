@@ -145,6 +145,8 @@ App.Views.Menu = Backbone.View.extend({
     App.eventBus.trigger('show:slide', num);
     this.close();
 
+    this.navigate(num);
+
     return false;
   },
 
@@ -153,6 +155,8 @@ App.Views.Menu = Backbone.View.extend({
 
     this._makeCurrent( $current );
     this.openCategory($current.parents('.menu__category'));
+
+    this.navigate(currentIndex + 1);
   },
 
   onSlideChange: function($slideElement, oldIndex, newIndex) {
@@ -163,6 +167,8 @@ App.Views.Menu = Backbone.View.extend({
     this._makeCurrent($current);
 
     this.openCategory($current.parents('.menu__category'));
+
+    this.navigate(newIndex + 1);
   },
 
   _removeCurrent: function($elem) {
@@ -177,6 +183,10 @@ App.Views.Menu = Backbone.View.extend({
 
   _getMenuLink: function(index) {
     return this.$('.menu__category a[data-slide="' + index + '"]');
+  },
+
+  navigate: function(num) {
+    App.workspace.navigate(num + '');
   }
 
 });

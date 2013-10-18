@@ -3,6 +3,7 @@
     Models: {},
     Views: {},
     Collections:{},
+    Router: {},
     Utils: {}
   };
 
@@ -20,6 +21,8 @@
   };
 
   App.init = function() {
+    App.workspace = new App.Router.Workspace();
+
     var cards = new App.Collections.Cards();
 
     var menu =  new App.Views.Menu({ collection: cards });
@@ -29,7 +32,9 @@
     menu.$el.append(cardsView.render().el);
     cardsView.initializeSlider();
 
-    cards.fetch({reset: true});
+    $.when( cards.fetch({reset: true}) ).then(function() {
+      Backbone.history.start();
+    });
   };
 
   window.app = {init: App.init};
