@@ -2,6 +2,7 @@
 layout: card
 title: Need Help?
 category: help
+category-name: Need Help?
 order: 20
 number: 0
 ---
