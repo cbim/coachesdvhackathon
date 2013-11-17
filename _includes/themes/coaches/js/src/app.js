@@ -20,6 +20,10 @@
     return child;
   };
 
+  App.Utils.capitalize = function(s) {
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  };
+
   App.init = function() {
     App.workspace = new App.Router.Workspace();
 
@@ -37,4 +41,4 @@
     });
   };
 
-  window.app = {init: App.init};
+  window.app = {init: App.init, capitalize: App.Utils.capitalize};

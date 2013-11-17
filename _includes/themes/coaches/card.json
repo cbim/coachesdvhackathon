@@ -1,5 +1,6 @@
 {
   "category": "{{item.category}}",
+  "categoryName": "{{item.category-name}}",
   "title": "{{ item.title | upcase }}",
   "order": {{item.order}},
   "number": {{item.number}},

@@ -38,11 +38,11 @@ scripts: ['js/app.js', 'js/start_app.js']
 </script>
 
 <script type='text/template' id='menu-item-template'>
-  <li class='menu__category <%= category %>'><%= category.toUpperCase() %>
+  <li class='menu__category <%= items[0].category %>'><%= app.capitalize(category) %>
     <ul>
       <% _.each(items, function(item) { %>
         <li class="item">
-          <a href="#" class="menu__category-link js-slide-link" data-slide="<%= item.slide %>" data-category="<%= category %>"><%= item.title %></a>
+          <a href="#" class="menu__category-link js-slide-link" data-slide="<%= item.slide %>" data-category="<%= item.category %>"><%= item.title %></a>
         </li>
       <% }); %>
     </ul>
@@ -52,7 +52,7 @@ scripts: ['js/app.js', 'js/start_app.js']
 <script type='text/template' id="menu-single-category-template">
   <li class="menu__category <%= category %>">
     <a href="#" class="menu__category-link--single js-slide-link" data-slide="<%= items[0].slide %>" data-category="<%= category %>">
-      <%= category.toUpperCase() %>
+      <%= app.capitalize(category) %>
     </a>
   </li>
 </script>

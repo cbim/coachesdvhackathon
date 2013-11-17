@@ -13,6 +13,6 @@ App.Collections.Cards = Backbone.Collection.extend({
   },
 
   byCategory: function() {
-    return this.groupBy(function(o) {  return o.get('category'); });
+    return this.groupBy(function(o) {  return o.get('categoryName') || o.get('category'); });
   }
 });
