@@ -2,7 +2,7 @@
 layout: card
 title: HOW TO HANDLE A TEACHABLE MOMENT
 category: teachable
-category-name: Teachable Moment
+category-name: Teachable Moments
 order: 19
 number: 0
 ---
