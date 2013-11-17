@@ -22,4 +22,4 @@ opportunities for your athletes to model respectful behavior.
 
 
 ##### References & Resouces
-See Coaches Kit for the Sample Sports Reporter Letter and visit [www.CoachesCorner.org](http://www.coachescorner.org/) for community engagement ideas from other coaches.
+See Coaches Kit for the <a href="/uploads/SampleSportsReporterLetter.pdf" target="_new">Sample Sports Reporter Letter</a> and visit [www.CoachesCorner.org](http://www.coachescorner.org/) for community engagement ideas from other coaches.
