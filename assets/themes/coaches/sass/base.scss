@@ -36,6 +36,7 @@ body.prep, body.training, body.hafltime, body.overtime, body.teachable {
 
 body.halftime, body.overtime, body.training {
   background: url(../img/page_background_half_overtime.jpg) no-repeat center center fixed;
+  @include vendor-prefix(background-size, cover);
 }
 
 /* #Typography

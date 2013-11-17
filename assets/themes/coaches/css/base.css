@@ -130,7 +130,12 @@ body.prep, body.training, body.hafltime, body.overtime, body.teachable {
 }
 */
 body.halftime, body.overtime, body.training {
-  background: url(../img/page_background_half_overtime.jpg) no-repeat center center fixed; }
+  background: url(../img/page_background_half_overtime.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
 
 /* #Typography
 ================================================== */
