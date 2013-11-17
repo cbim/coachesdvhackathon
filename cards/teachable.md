@@ -3,6 +3,7 @@ layout: card
 title: HOW TO HANDLE A TEACHABLE MOMENT
 category: teachable
 category-name: Teachable Moments
+break-before-category: true
 order: 19
 number: 0
 ---
