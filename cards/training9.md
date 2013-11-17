@@ -2,6 +2,7 @@
 layout: card
 title: THERE’S NO EXCUSE FOR RELATIONSHIP ABUSE
 category: training
+category-name: Training Cards
 order: 13
 number: 9
 ---

@@ -2,6 +2,7 @@
 layout: card
 title: Pre-Season Speech
 category: training
+category-name: Training Cards
 order: 4
 number: 1
 ---

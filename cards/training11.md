@@ -2,6 +2,7 @@
 layout: card
 title: MODELING RESPECT AND PROMOTING EQUALITY
 category: training
+category-name: Training Cards
 order: 15
 number: 11
 ---

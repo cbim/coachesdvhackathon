@@ -2,6 +2,7 @@
 layout: card
 title: WHEN AGGRESSION CROSSES THE LINE
 category: training
+category-name: Training Cards
 order: 12
 number: 8
 ---

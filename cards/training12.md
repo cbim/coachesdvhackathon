@@ -2,6 +2,7 @@
 layout: card
 title: SIGNING THE PLEDGE
 category: training
+category-name: Training Cards
 order: 16
 number: 12
 ---

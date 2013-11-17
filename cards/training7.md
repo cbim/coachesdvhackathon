@@ -2,6 +2,7 @@
 layout: card
 title: BRAGGING ABOUT SEXUAL REPUTATION
 category: training
+category-name: Training Cards
 order: 11
 number: 7
 ---

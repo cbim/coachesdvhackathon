@@ -2,6 +2,7 @@
 layout: card
 title: Personal Responsibility
 category: training
+category-name: Training Cards
 order: 5
 number: 2
 ---

@@ -2,6 +2,7 @@
 layout: card
 title: DIGITAL DISRESPECT
 category: training
+category-name: Training Cards
 order: 8
 number: 5
 ---

@@ -2,6 +2,7 @@
 layout: card
 title: COMMUNICATING BOUNDARIES
 category: training
+category-name: Training Cards
 order: 14
 number: 10
 ---

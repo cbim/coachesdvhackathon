@@ -2,6 +2,7 @@
 layout: card
 title: DISRESPECTFUL BEHAVIOR TOWARDS WOMEN & GIRLS
 category: training
+category-name: Training Cards
 order: 7
 number: 4
 ---

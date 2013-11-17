@@ -2,6 +2,7 @@
 layout: card
 title: UNDERSTANDING CONSENT
 category: training
+category-name: Training Cards
 order: 9
 number: 6
 ---

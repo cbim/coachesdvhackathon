@@ -2,6 +2,7 @@
 layout: card
 title: Insulting Language
 category: training
+category-name: Training Cards
 order: 6
 number: 3
 ---
