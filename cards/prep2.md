@@ -17,7 +17,7 @@ Inform others of the commitment your team is making. This will enhance your prog
 
 Before the season begins, invite these allies to support you in the implementation of Coaching Boys into Men, and continue to involve them week after week.
 
-Share copies of the **Coaching Boys into Men Overview**, using it as a way to introduce anyone to the program.
+Share copies of the **<a href="/uploads/CBIMOverview.pdf" target="_new">Coaching Boys into Men Overview</a>**, using it as a way to introduce anyone to the program.
 
 Visit [www.CoachesCorner.org](http://www.coachescorner.org/) for community engagement ideas from fellow coaches!
 
