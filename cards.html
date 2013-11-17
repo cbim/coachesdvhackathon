@@ -38,7 +38,12 @@ scripts: ['js/app.js', 'js/start_app.js']
 </script>
 
 <script type='text/template' id='menu-item-template'>
-  <li class='menu__category <%= items[0].category %>'><%= app.capitalize(category) %>
+  <%  var c = '';
+      if (items[0].breakBeforeCategory) {
+        c = 'break-top';
+      }
+  %>
+  <li class='menu__category <%= items[0].category %> <%= c %>'><%= app.capitalize(category) %>
     <ul>
       <% _.each(items, function(item) { %>
         <li class="item">
@@ -50,7 +55,12 @@ scripts: ['js/app.js', 'js/start_app.js']
 </script>
 
 <script type='text/template' id="menu-single-category-template">
-  <li class="menu__category <%= category %>">
+  <%  var c = '';
+      if (items[0].breakBeforeCategory) {
+        c = 'break-top';
+      }
+  %>
+  <li class="menu__category <%= items[0].category %> <%= c %>">
     <a href="#" class="menu__category-link--single js-slide-link" data-slide="<%= items[0].slide %>" data-category="<%= category %>">
       <%= app.capitalize(category) %>
     </a>

@@ -5,9 +5,20 @@ App.Models.Card = Backbone.Model.extend({
     order: 0,
     number: 0,
     title: '',
-    content: ''
+    content: '',
+    breakBeforeCategory: false
   },
 
-  initialize: function(){}
+  initialize: function(){},
+
+  parse: function(response) {
+  	if (response.breakBeforeCategory === "true") {
+  		response.breakBeforeCategory = true;
+  	}
+  	if (response.breakBeforeCategory === "false") {
+  		response.breakBeforeCategory = false;
+  	}
+  	return response;
+  }
 
 });

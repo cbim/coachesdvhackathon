@@ -135,7 +135,7 @@ body.halftime, body.overtime, body.training {
 /* #Typography
 ================================================== */
 #fittext1 {
-  font-family: "Alfa Slab One", cursive;
+  font-family: 'Alfa Slab One', cursive;
   text-transform: uppercase;
   color: white;
   text-align: left;
@@ -391,6 +391,9 @@ blockquote {
 
 .menu__category.open ul {
   display: block; }
+
+.menu__category.break-top {
+  margin-top: 25px; }
 
 .menu__category-link {
   text-decoration: none;

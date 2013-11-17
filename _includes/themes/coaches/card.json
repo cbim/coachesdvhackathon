@@ -1,6 +1,7 @@
 {
   "category": "{{item.category}}",
   "categoryName": "{{item.category-name}}",
+  "breakBeforeCategory": "{{item.break-before-category}}",
   "title": "{{ item.title | upcase }}",
   "order": {{item.order}},
   "number": {{item.number}},
