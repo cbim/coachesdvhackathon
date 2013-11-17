@@ -1,3 +1,3 @@
 $(function() {
-  $("#fittext1").fitText(0.95, {minFontSize: '40px'});
+  $("#fittext1").fitText(1.2, {minFontSize: '40px'});
 });

@@ -139,7 +139,7 @@ body.halftime, body.overtime, body.training {
   text-transform: uppercase;
   color: white;
   text-align: left;
-  margin-top: 10%;
+  margin-top: 7%;
   font-size: 46px;
   line-height: 1.5em;
   margin-left: 2%;
@@ -147,7 +147,7 @@ body.halftime, body.overtime, body.training {
   text-shadow: 1px 8px 8px #383535; }
   @media screen and (max-width: 500px) {
     #fittext1 {
-      margin-top: 20%; } }
+      margin-top: 5%; } }
   @media screen and (min-width: 1000px) {
     #fittext1 {
       margin-top: 6%; } }
